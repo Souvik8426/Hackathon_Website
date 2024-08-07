@@ -1,5 +1,7 @@
 import React from 'react'
 import EventItems from './EventItems'
+import Card from './NewItem'
+
 
 const TechEvents = () => {
   return (
@@ -12,10 +14,30 @@ const TechEvents = () => {
         </div>
         <div className='grid grid-flow-row grid-rows-2 grid-cols-4 gap-[2rem] pt-[3rem]'>
 
-          <EventItems />
-          <EventItems />
-          <EventItems />
-          <EventItems />
+          <Card
+            eventName="My Event"
+            eventDescription="Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero dolorum blanditiis pariatur sequi magni."
+            eventImage="https://example.com/image.jpg"
+            buttonText="Join Now"
+          />
+          <Card
+            eventName="My Event"
+            eventDescription="Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero dolorum blanditiis pariatur sequi magni."
+            eventImage="https://example.com/image.jpg"
+            buttonText="Join Now"
+          />
+          <Card
+            eventName="My Event"
+            eventDescription="Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero dolorum blanditiis pariatur sequi magni."
+            eventImage="https://example.com/image.jpg"
+            buttonText="Join Now"
+          />
+          <Card
+            eventName="My Event"
+            eventDescription="Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero dolorum blanditiis pariatur sequi magni."
+            eventImage="https://example.com/image.jpg"
+            buttonText="Join Now"
+          />
         </div>
       </div>
     </>
