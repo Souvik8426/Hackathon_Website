@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <nav
       className="fixed block w-screen px-4 py-2 mx-auto text-white bg-transparent shadow-md lg:px-8 lg:py-4 backdrop-blur-sm">
-      <div className="container flex items-center justify-between mx-auto text-blue-gray-900">
+      <div className="container flex items-center bg-transparent justify-between mx-auto text-blue-gray-900 backdrop-blur-sm">
         <a href="#"
           className="mr-4 block cursor-pointer py-1.5 font-sans text-base font-medium leading-relaxed text-inherit antialiased">
           Material Tailwind
