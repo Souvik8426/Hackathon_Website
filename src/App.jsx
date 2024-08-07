@@ -7,6 +7,7 @@ import Timeline from './components/Timeline';
 import Footer from './components/Footer';
 import { createRoot } from 'react-dom/client';
 import Gallery from './components/Gallery';
+import FAQs from './components/FAQ';
 
 import './App.css'; // Assuming you have some CSS to style the app
 
@@ -26,10 +27,11 @@ const App = () => {
       <div className="sponsors-container bg-black text-white">
         <Sponsors svgs={svgList} />
       </div>
+      <div className="bg-black text-white">
       <TechEvents />
       <Timeline />
-      <div className="bg-black text-white">
       <Gallery />
+      <FAQs />
       <Footer />
       </div>
     </div>

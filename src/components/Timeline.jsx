@@ -7,7 +7,9 @@ const Timeline = () => {
                 <div className="flex flex-col justify-center divide-y divide-slate-200 [&>*]:py-16">
                     <div className="w-full max-w-3xl mx-auto">
                         <div className='bg-black text-6xl font-bold mb-5 text-white font-orbitron text-center'>
-                            <span>Timeline</span>
+                            <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-green-500 to-yellow-500">
+                                Timeline
+                            </span>
                         </div>
                         <div className="-my-6">
                             <div className="relative pl-8 sm:pl-32 py-6 group">
