@@ -27,13 +27,15 @@ const App = () => {
       <div className="sponsors-container bg-black text-white">
         <Sponsors svgs={svgList} />
       </div>
-      <div className="bg-black text-white">
-      <TechEvents />
+      <div className="bg-transparent text-white">
+        <TechEvents />
+      </div>
       <Timeline />
       <Gallery />
-      <FAQs />
-      <Footer />
+      <div className='bg-transparent'>
+        <FAQs />
       </div>
+      <Footer />
     </div>
   );
 };

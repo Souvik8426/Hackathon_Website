@@ -35,7 +35,7 @@ const photos = [
 function Gallery() {
   return (
     <>
-      <div className='bg-black text-6xl font-bold mb-5 text-white font-orbitron text-center'>
+      <div className='py-8 text-6xl font-bold mb-5 text-white font-orbitron text-center'>
       <span className="bg-clip-text text-transparent bg-gradient-to-tr from-blue-400 via-purple-500 to-pink-500">
       Gallery</span>
       </div>
@@ -47,7 +47,6 @@ function Gallery() {
         ))}
       </div>
     </>
-
   );
 }
 

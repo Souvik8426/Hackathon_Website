@@ -3,8 +3,8 @@ import React from 'react';
 const Timeline = () => {
     return (
         <section className="relative min-h-screen flex flex-col justify-center bg-black overflow-hidden">
-            <div className="w-full max-w-6xl mx-auto px-4 md:px-6 py-24">
-                <div className="flex flex-col justify-center divide-y divide-slate-200 [&>*]:py-16">
+            <div className="w-full max-w-screen mx-auto px-4 md:px-6">
+                <div className="flex flex-col justify-center divide-y divide-slate-200">
                     <div className="w-full max-w-3xl mx-auto">
                         <div className='bg-black text-6xl font-bold mb-5 text-white font-orbitron text-center'>
                             <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-green-500 to-yellow-500">
