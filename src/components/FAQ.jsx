@@ -86,14 +86,14 @@ const FAQs = () => {
 
     return (
         <div id="faq" className="w-screen py-12">
-            <div className="container mx-auto px-4 bg-black">
+            <div className=" px-[3rem] bg-black">
                 <h1 className="text-center text-7xl font-bold mb-8">
                     <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-green-500 to-yellow-500">
                         FAQs
                     </span>
                 </h1>
     
-                <div className="border border-gray-700 rounded-lg max-w-5xl mx-auto p-6  bg-black">
+                <div className="border border-gray-700 rounded-lg max-w-screen mx-auto p-6  bg-black">
                     {faqs.map(({ question, answer }, index) => (
                         <Accordion
                             key={index}

@@ -18,7 +18,7 @@ const App = () => {
   const root = createRoot(rootElement);
 
   return (
-    <div className="container">
+    <div className="bg-black">
       <Navbar />
       <header className="App-header">
         <h1>Welcome to My Website</h1>

@@ -39,7 +39,7 @@ function Gallery() {
       <span className="bg-clip-text text-transparent bg-gradient-to-tr from-blue-400 via-purple-500 to-pink-500">
       Gallery</span>
       </div>
-      <div className="gallery">
+      <div className="gallery w-screen container px-[2rem]">
         {photos.map((photo, index) => (
           <div key={index} className="gallery-item">
             <img src={photo.source} alt={photo.alt} />
