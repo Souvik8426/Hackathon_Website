@@ -46,64 +46,28 @@ const FAQs = () => {
             question: 'Are there any competitions or hackathons during the event?',
             answer: 'Yes, the event may include competitions, hackathons, or coding challenges. Keep an eye on the event schedule for details on specific contests and how to participate.',
         },
-        {
-            question: 'Team Size?',
-            answer: '(1-3)',
-        },
-        {
-            question: 'Who can participate?',
-            answer: 'Anyone passionate about coding can participate in a hackathon. Whether you’re a beginner or an experienced developer, hackathons offers a great opportunity to learn, collaborate, and showcase your skills. 🚀👩‍💻',
-        },
-        {
-            question: 'Is this an offline event?',
-            answer: 'Yes, this is an offline event.',
-        },
-        {
-            question: 'Can we apply as a team?',
-            answer: 'Yes, you can participate either as a team or individually.',
-        },
-        {
-            question: 'What if we don\'t have a team?',
-            answer: 'No worries, participants can hack solo also.',
-        },
-        {
-            question: 'Will there be arrangements for food and resting area?',
-            answer: 'Yes, food is on us. We will provide you a resting area as well.',
-        },
-        {
-            question: 'Once I am accepted, what do I need to bring?',
-            answer: 'Your college ID card, laptop, phone, charger.',
-        },
-        {
-            question: 'Is it possible to attend it virtually?',
-            answer: 'No, the hackathon is going to be held offline only.',
-        },
-        {
-            question: 'Did we miss something?',
-            answer: 'If we missed anything or you have other queries, contact us on satapathyprayasu@gmail.com.',
-        },
     ];
 
     return (
-        <div id="faq" className="w-screen py-12">
-            <div className=" px-[3rem] bg-black">
-                <h1 className="text-center text-7xl font-bold mb-8">
-                    <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-green-500 to-yellow-500">
+        <div id="faq" className="py-12 bg-black">
+            <div className="px-8">
+                <div className='text-6xl font-bold mb-5 text-white font-orbitron text-center'>
+                    <span className="bg-clip-text text-transparent bg-gradient-to-bl from-blue-500 via-green-500 to-yellow-500">
                         FAQs
                     </span>
-                </h1>
-    
-                <div className="border border-gray-700 rounded-lg max-w-screen mx-auto p-6  bg-black">
+                </div>
+
+                <div className="text-white max-w-2xl mx-auto">
                     {faqs.map(({ question, answer }, index) => (
                         <Accordion
                             key={index}
                             open={open === index + 1}
                             icon={<Icon id={index + 1} open={open} />}
                         >
-                            <AccordionHeader onClick={() => handleOpen(index + 1)} className="text-white border-b border-gray-700">
+                            <AccordionHeader onClick={() => handleOpen(index + 1)} className="py-[1rem] text-lg font-medium">
                                 {question}
                             </AccordionHeader>
-                            <AccordionBody className="text-ui-primary text-left p-4">
+                            <AccordionBody className="text-base text-left p-4">
                                 {answer}
                             </AccordionBody>
                         </Accordion>
