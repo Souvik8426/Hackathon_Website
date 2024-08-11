@@ -8,6 +8,8 @@ import Footer from './components/Footer';
 import { createRoot } from 'react-dom/client';
 import Gallery from './components/Gallery';
 import FAQs from './components/FAQ';
+import About from './components/About';
+
 
 import './App.css'; // Assuming you have some CSS to style the app
 
@@ -23,6 +25,7 @@ const App = () => {
         <h1>Welcome to My Website</h1>
         <p>This is a simple React app with a modern navbar.</p>
       </header>
+      <About />
       <div className="bg-black text-white">
         <Sponsors svgs={svgList} />
       </div>
