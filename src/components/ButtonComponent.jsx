@@ -1,9 +1,9 @@
 import React from 'react';
 import './ButtonComponent.css';
 
-const GradientButton = ({ text }) => {
+const GradientButton = ({ text, onClick }) => {
   return (
-    <button className="gradient-button">
+    <button className="gradient-button" onClick={onClick}>
       {text}
       <div className="hover-effect">
         <div></div>

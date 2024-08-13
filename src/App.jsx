@@ -20,9 +20,16 @@ const App = () => {
 
   return (
     <div className="bg-transparent">
-      <Navbar />
+      <Navbar
+        sections={[
+          { text: "Home", id: "hero" },
+          { text: "Events", id: "tech-events-section" },
+          { text: "Gallery", id: "gallery-section" },
+          { text: "Contact us", id: "footer-section" },
+        ]}
+      />
       <div className="App-container">
-        <header className="App-header">
+        <header id="hero" className="App-header">
           <img src={Datatrix} width="300" height="200" alt="Datatrix Image" />
           <h1>Presents</h1>
           <img src={Datathon} height="20rem" alt="Datathon Image" />
@@ -35,19 +42,33 @@ const App = () => {
           <img src={HeaderImage} alt="SVG Image" className="w-full h-full" />
         </div>
       </div>
-      <About />
+      <div id="about-section">
+        <About />
+      </div>
       <div className="bg-black text-white">
-        <Sponsors svgs={svgList} />
+        <div id="sponsors-section">
+          <Sponsors svgs={svgList} />
+        </div>
       </div>
       <div className="bg-transparent text-white">
-        <TechEvents />
+        <div id="tech-events-section">
+          <TechEvents />
+        </div>
       </div>
-      <Timeline />
-      <Gallery />
+      <div id="timeline-section">
+        <Timeline />
+      </div>
+      <div id="gallery-section">
+        <Gallery />
+      </div>
       <div className="bg-transparent">
-        <FAQs />
+        <div id="faqs-section">
+          <FAQs />
+        </div>
       </div>
-      <Footer />
+      <div id="footer-section">
+        <Footer />
+      </div>
     </div>
   );
 };

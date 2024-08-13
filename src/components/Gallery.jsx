@@ -7,7 +7,7 @@ import img3 from "../assets/GalleryImages/3.jpg";
 import img4 from "../assets/GalleryImages/4.jpg";
 import img5 from "../assets/GalleryImages/5.jpg";
 import img6 from "../assets/GalleryImages/6.jpg";
-import img7 from "../assets/GalleryImages/15.jpg";
+import img7 from "../assets/GalleryImages/7.jpg";
 import img8 from "../assets/GalleryImages/8.jpg";
 import img9 from "../assets/GalleryImages/9.jpg";
 import img10 from "../assets/GalleryImages/10.jpg";
