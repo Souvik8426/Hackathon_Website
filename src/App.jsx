@@ -20,15 +20,15 @@ const App = () => {
   return (
     <div className="bg-transparent">
       <Navbar />
-      <header className="App-header">
-        <img src={Datatrix} width="300" height="200" alt="Datatrix Image" />
-        <h1>Presents</h1>
-        <img src={Datathon} height="20rem" alt="Datathon Image" />
-        <h2>Details of the venue and the dates</h2>
-        <div className="App">
-          <HeaderButton />
-        </div>
-      </header>
+        <header className="App-header">
+          <img src={Datatrix} width="300" height="200" alt="Datatrix Image" />
+          <h1>Presents</h1>
+          <img src={Datathon} height="20rem" alt="Datathon Image" />
+          <h2>Details of the venue and the dates</h2>
+          <div className="App">
+            <HeaderButton />
+          </div>
+        </header>
       <About />
       <div className="bg-black text-white">
         <Sponsors svgs={svgList} />
