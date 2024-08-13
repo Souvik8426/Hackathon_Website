@@ -51,6 +51,9 @@ const FAQs = () => {
 
   return (
     <div id="faq" className="py-12 bg-black flex">
+      <div className="lg:flex lg:w-2/5 items-center justify-center hidden md:hidden">
+        <img src={FAQImage} alt="FAQ Image" className="w-full h-full" />
+      </div>
       <div className="w-3/5 px-8 md:w-full md:text-center">
         <div className='text-6xl font-bold mb-5 text-white font-orbitron text-center'>
           <span className="bg-clip-text text-transparent bg-gradient-to-bl from-blue-500 via-green-500 to-yellow-500">
@@ -74,9 +77,6 @@ const FAQs = () => {
             </Accordion>
           ))}
         </div>
-      </div>
-      <div className="lg:flex lg:w-2/5 items-center justify-center hidden md:hidden">
-        <img src={FAQImage} alt="FAQ Image" className="w-full h-full" />
       </div>
     </div>
   );
