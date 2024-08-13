@@ -1,70 +1,88 @@
 import React from "react";
 import { Gallery as ReactGridGallery } from "react-grid-gallery";
 import "./Gallery.css";
+import img1 from "../assets/GalleryImages/1.jpg";
+import img2 from "../assets/GalleryImages/2.jpg";
+import img3 from "../assets/GalleryImages/3.jpg";
+import img4 from "../assets/GalleryImages/4.jpg";
+import img5 from "../assets/GalleryImages/5.jpg";
+import img6 from "../assets/GalleryImages/6.jpg";
+import img7 from "../assets/GalleryImages/7.jpg";
+import img8 from "../assets/GalleryImages/8.jpg";
+import img9 from "../assets/GalleryImages/9.jpg";
+import img10 from "../assets/GalleryImages/10.jpg";
+import img11 from "../assets/GalleryImages/11.jpg";
+import img12 from "../assets/GalleryImages/12.jpg";
 
 const photos = [
   {
-    src: "../assets/1.jpg",
+    src: img1,
+    alt: "some trees",
+    width: 800,
+    height: 1000,
+  },
+  {
+    src: img2,
     alt: "some trees",
     width: 960,
     height: 720,
   },
   {
-    src: "https://cdn.pixabay.com/photo/2021/07/30/20/28/montmartre-6510653_960_720.jpg",
-    alt: "some trees",
-    width: 960,
-    height: 1020,
-  },
-  {
-    src: "https://cdn.pixabay.com/photo/2021/06/27/14/32/raspberry-6368999_960_720.png",
+    src: img3,
     alt: "some trees",
     width: 960,
     height: 720,
   },
   {
-    src: "https://cdn.pixabay.com/photo/2019/06/22/18/31/love-4292211_960_720.jpg",
+    src: img4,
     alt: "some trees",
     width: 960,
     height: 720,
   },
   {
-    src: "https://cdn.pixabay.com/photo/2021/01/29/08/10/musician-5960112_960_720.jpg",
+    src: img5,
     alt: "some trees",
     width: 960,
     height: 720,
   },
   {
-    src: "https://cdn.pixabay.com/photo/2021/07/30/20/28/montmartre-6510653_960_720.jpg",
+    src: img6,
     alt: "some trees",
     width: 960,
     height: 720,
   },
   {
-    src: "https://cdn.pixabay.com/photo/2021/06/27/14/32/raspberry-6368999_960_720.png",
+    src: img7,
     alt: "some trees",
     width: 960,
     height: 720,
   },
   {
-    src: "https://cdn.pixabay.com/photo/2019/06/22/18/31/love-4292211_960_720.jpg",
+    src: img8,
     alt: "some trees",
     width: 960,
     height: 720,
   },
   {
-    src: "https://cdn.pixabay.com/photo/2021/01/29/08/10/musician-5960112_960_720.jpg",
+    src: img9,
     alt: "some trees",
     width: 960,
     height: 720,
   },
   {
-    src: "https://cdn.pixabay.com/photo/2021/07/30/20/28/montmartre-6510653_960_720.jpg",
+    src: img10,
     alt: "some trees",
     width: 960,
     height: 720,
   },
   {
-    src: "https://cdn.pixabay.com/photo/2021/06/27/14/32/raspberry-6368999_960_720.png",
+    src: img11,
+    alt: "some trees",
+    width: 960,
+    height: 720,
+  },
+  {
+    src: img12,
     alt: "some trees",
     width: 960,
     height: 720,
@@ -79,8 +97,16 @@ function Gallery() {
           Gallery
         </span>
       </div>
-      <div className="mb-10">
-        <ReactGridGallery images={photos} />
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 px-5 mb-10">
+        {photos.map((photo, index) => (
+          <div key={index} className="relative group">
+            <img
+              src={photo.src}
+              alt={photo.alt}
+              className="w-full h-60 object-cover transition-transform duration-500 transform group-hover:scale-110 group-hover:brightness-75"
+            />
+          </div>
+        ))}
       </div>
     </>
   );
