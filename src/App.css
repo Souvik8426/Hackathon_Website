@@ -66,6 +66,35 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
+.App-container {
+  display: flex;
+  height: 100vh; /* Full height of the viewport */
+}
+
+.App-header {
+  flex: 1; /* Takes up the left half */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Vertically center the content */
+  align-items: center;
+}
+
+.Image-container {
+  flex: 1; /* Takes up the right half */
+  display: flex;
+  justify-content: center; /* Centers the image horizontally */
+  align-items: center; /* Centers the image vertically */
+  background-color: #f0f0f0; /* Optional: Background color for the right side */
+}
+
+.Image-container img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+
 .sponsors-container h1 {
   font-size: 36px;
   font-weight: bold;

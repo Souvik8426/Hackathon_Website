@@ -11,6 +11,7 @@ import About from "./components/About";
 import Datatrix from "./assets/DATATRIX-fulltextogpy.png";
 import Datathon from "./assets/DATATHON24-textogpy.png";
 import HeaderButton from "./components/HeaderButton";
+import HeaderImage from "./assets/HeaderImage.svg";
 
 import "./App.css";
 
@@ -20,6 +21,7 @@ const App = () => {
   return (
     <div className="bg-transparent">
       <Navbar />
+      <div className="App-container">
         <header className="App-header">
           <img src={Datatrix} width="300" height="200" alt="Datatrix Image" />
           <h1>Presents</h1>
@@ -29,6 +31,10 @@ const App = () => {
             <HeaderButton />
           </div>
         </header>
+        <div className="Image-container bg-transparent">
+          <img src={HeaderImage} alt="SVG Image" className="w-100 h-100" />
+        </div>
+      </div>
       <About />
       <div className="bg-black text-white">
         <Sponsors svgs={svgList} />
