@@ -31,8 +31,8 @@ const App = () => {
             <HeaderButton />
           </div>
         </header>
-        <div className="Image-container bg-transparent">
-          <img src={HeaderImage} alt="SVG Image" className="w-100 h-100" />
+        <div className="Image-container bg-transparent hidden md:block">
+          <img src={HeaderImage} alt="SVG Image" className="w-full h-full" />
         </div>
       </div>
       <About />

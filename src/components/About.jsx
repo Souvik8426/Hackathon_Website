@@ -4,13 +4,13 @@ import AboutImage from '../assets/AboutUs.svg'; // Update with your image path
 const About = () => {
     return (
         <div className="bg-gradient-to-b from-gray-900 to-black text-white p-10 rounded-lg shadow-lg">
-            <div className="flex flex-row items-center">
+            <div className="flex flex-col md:flex-row items-center">
                 {/* Left Half: Image */}
-                <div className="w-1/2 flex justify-center items-center">
+                <div className="w-full md:w-1/2 flex justify-center items-center hidden md:flex">
                     <img src={AboutImage} alt="About Image" className="max-w-full max-h-full rounded-lg shadow-lg" />
                 </div>
                 {/* Right Half: Text */}
-                <div className="w-1/2 flex flex-col items-center">
+                <div className="w-full md:w-1/2 flex flex-col items-center mt-4 md:mt-0">
                     <div className="w-full max-w-2xl text-center">
                         <div className='text-6xl font-bold mb-5 text-white font-orbitron text-center'>
                             <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-green-500 to-yellow-500">
