@@ -18,7 +18,7 @@ const About = () => {
                             </span>
                         </div>
                         <div className='text-6xl font-bold mb-5 text-white font-orbitron text-center'>
-                            <span className="bg-clip-text text-transparent bg-gradient-to-r from-red-600 via-orange-500 to-yellow-400">
+                            <span className="bg-clip-text text-transparent bg-gradient-to-bl from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%">
                                 Datathon 2024
                             </span>
                         </div>

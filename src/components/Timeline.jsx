@@ -2,7 +2,7 @@ import React from 'react';
 
 const Timeline = () => {
     return (
-        <section className="relative min-h-screen flex flex-col justify-center bg-black overflow-hidden">
+        <section className="relative min-h-screen flex flex-col justify-center overflow-hidden bg-gradient-to-b from-lime-950 to-black">
             <div className="w-full max-w-screen mx-auto px-4 md:px-6">
                 <div className="flex flex-col justify-center divide-y divide-slate-200">
                     <div className="w-full max-w-3xl mx-auto">

@@ -50,7 +50,7 @@ const FAQs = () => {
   ];
 
   return (
-    <div id="faq" className="py-12 bg-black flex">
+    <div id="faq" className="py-12 flex bg-gradient-to-b from-indigo-950 to-black">
       <div className="lg:flex lg:w-2/5 items-center justify-center hidden md:hidden">
         <img src={FAQImage} alt="FAQ Image" className="w-full h-full" />
       </div>
