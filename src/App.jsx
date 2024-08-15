@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 import Gallery from "./components/Gallery";
 import FAQs from "./components/FAQ";
 import About from "./components/About";
-import Datatrix from "./assets/DATATRIX-fulltextogpy.png";
+import Datatrix from "./assets/Datatrix_OG.png";
 import Datathon from "./assets/DATATHON24-textogpy.png";
 import HeaderButton from "./components/HeaderButton";
 import HeaderImage from "./assets/HeaderImage.svg";

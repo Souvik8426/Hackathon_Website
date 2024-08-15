@@ -1,18 +1,18 @@
 import React from "react";
 import { Gallery as ReactGridGallery } from "react-grid-gallery";
 import "./Gallery.css";
-import img1 from "../assets/GalleryImages/1.jpg";
-import img2 from "../assets/GalleryImages/2.jpg";
-import img3 from "../assets/GalleryImages/3.jpg";
-import img4 from "../assets/GalleryImages/4.jpg";
-import img5 from "../assets/GalleryImages/5.jpg";
-import img6 from "../assets/GalleryImages/6.jpg";
-import img7 from "../assets/GalleryImages/7.jpg";
+import img1 from "../assets/GalleryImages/1.jpeg";
+import img2 from "../assets/GalleryImages/2.jpeg";
+import img3 from "../assets/GalleryImages/3.jpeg";
+import img4 from "../assets/GalleryImages/4.jpeg";
+import img5 from "../assets/GalleryImages/5.jpeg";
+import img6 from "../assets/GalleryImages/6.jpeg";
+import img7 from "../assets/GalleryImages/7.jpeg";
 import img8 from "../assets/GalleryImages/8.jpg";
-import img9 from "../assets/GalleryImages/9.jpg";
-import img10 from "../assets/GalleryImages/10.jpg";
-import img11 from "../assets/GalleryImages/11.jpg";
-import img12 from "../assets/GalleryImages/12.jpg";
+// import img9 from "../assets/GalleryImages/9.jpg";
+// import img10 from "../assets/GalleryImages/10.jpg";
+// import img11 from "../assets/GalleryImages/11.jpg";
+// import img12 from "../assets/GalleryImages/12.jpg";
 
 const photos = [
   {
@@ -63,30 +63,30 @@ const photos = [
     width: 960,
     height: 720,
   },
-  {
-    src: img9,
-    alt: "some trees",
-    width: 960,
-    height: 720,
-  },
-  {
-    src: img10,
-    alt: "some trees",
-    width: 960,
-    height: 720,
-  },
-  {
-    src: img11,
-    alt: "some trees",
-    width: 960,
-    height: 720,
-  },
-  {
-    src: img12,
-    alt: "some trees",
-    width: 960,
-    height: 720,
-  },
+  // {
+  //   src: img9,
+  //   alt: "some trees",
+  //   width: 960,
+  //   height: 720,
+  // },
+  // {
+  //   src: img10,
+  //   alt: "some trees",
+  //   width: 960,
+  //   height: 720,
+  // },
+  // {
+  //   src: img11,
+  //   alt: "some trees",
+  //   width: 960,
+  //   height: 720,
+  // },
+  // {
+  //   src: img12,
+  //   alt: "some trees",
+  //   width: 960,
+  //   height: 720,
+  // },
 ];
 
 function Gallery() {

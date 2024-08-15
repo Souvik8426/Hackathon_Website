@@ -6,7 +6,7 @@ const Timeline = () => {
             <div className="w-full max-w-screen mx-auto px-4 md:px-6">
                 <div className="flex flex-col justify-center divide-y divide-slate-200">
                     <div className="w-full max-w-3xl mx-auto">
-                        <div className='bg-black text-6xl font-bold mb-5 text-white font-orbitron text-center py-10'>
+                        <div className='text-6xl font-bold mb-5 text-white font-orbitron text-center py-10'>
                             <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-green-500 to-yellow-500">
                                 Timeline
                             </span>

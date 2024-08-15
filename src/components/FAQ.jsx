@@ -29,32 +29,40 @@ const FAQs = () => {
   const faqs = [
     {
       question: 'Who can participate in the technical event?',
-      answer: 'The event is open to Engineering and Technology students. Participants from diverse backgrounds and expertise levels are encouraged to join.',
+      answer: 'Students, developers, designers, and innovators—this hackathon is for you! Whether you\'re coding, designing, or ideating, bring your passion and create something extraordinary. If you love data , you belong here!',
     },
     {
       question: 'Can I receive a certificate of participation?',
-      answer: 'Participants who attend the event and actively engage in sessions and activities will receive a certificate of participation. Details on how to obtain the certificate will be provided at the event venue or through the event website.',
+      answer: 'Absolutely! Every participant in the hackathon will receive a certificate to celebrate your hard work and innovation. It’s more than just a piece of paper—it’s proof you took on the challenge.',
     },
     {
       question: 'How can I stay updated on event announcements and changes?',
-      answer: 'To stay informed about event updates, follow our official social media channels and regularly check the event website for announcements, schedule changes, and additional information.',
+      answer: 'Stay in the loop! Follow us on social media and join our Datatrix’24 Whatsapp Community to catch all the latest updates and announcements. Don’t miss a beat—be the first to know.',
     },
     {
       question: 'Is there a registration fee?',
-      answer: 'Details regarding registration fees can be found on the event website. Some events may offer discounted rates for students, early birds, or group registrations. Be sure to check the pricing information during the registration process.',
+      answer: 'Nope! Participation is completely free of charge.',
     },
     {
-      question: 'Are there any competitions or hackathons during the event?',
-      answer: 'Yes, the event may include competitions, hackathons, or coding challenges. Keep an eye on the event schedule for details on specific contests and how to participate.',
+      question: 'What should I bring to the event?',
+      answer: 'Bring your laptop, charger, and any other tools you need to code and collaborate. Most importantly, bring your creativity and enthusiasm.',
+    },
+    {
+      question: 'What is the hackathon’s schedule?',
+      answer: 'Check out our event timeline on the official website for detailed timing and activities.',
+    },
+    {
+      question: 'Will there be networking opportunities?',
+      answer: 'Absolutely! Connect with fellow participants, mentors, and industry leaders throughout the event.',
     },
   ];
 
   return (
     <div id="faq" className="py-12 flex bg-gradient-to-b from-indigo-950 to-black">
-      <div className="lg:flex lg:w-2/5 items-center justify-center hidden md:hidden">
+      <div className="lg:flex lg:w-2/3 items-center justify-center hidden md:hidden">
         <img src={FAQImage} alt="FAQ Image" className="w-full h-full" />
       </div>
-      <div className="w-3/5 px-8 md:w-full md:text-center">
+      <div className="w-1/2 px-8 md:w-full md:text-center">
         <div className='text-6xl font-bold mb-5 text-white font-orbitron text-center'>
           <span className="bg-clip-text text-transparent bg-gradient-to-bl from-blue-500 via-green-500 to-yellow-500">
             FAQs
