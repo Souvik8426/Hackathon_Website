@@ -45,11 +45,11 @@ const App = () => {
       <div id="about-section">
         <About />
       </div>
-      <div className="bg-black text-white">
+      {/* <div className="bg-black text-white">
         <div id="sponsors-section">
           <Sponsors svgs={svgList} />
         </div>
-      </div>
+      </div> */}
       <div className="bg-transparent text-white">
         <div id="tech-events-section">
           <TechEvents />
