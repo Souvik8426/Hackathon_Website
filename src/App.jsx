@@ -34,7 +34,7 @@ const App = () => {
         <header id="hero" className="App-header">
           <img src={Datatrix} width="175" height="85" alt="Datatrix Image" />
           <h1>Presents</h1>
-          <img src={Datathon} height="20rem" alt="Datathon Image" />
+          <img src={Datathon} width="1100" alt="Datathon Image" />
           <h2>Details of the venue and the dates</h2>
           <div className="App">
             <HeaderButton />

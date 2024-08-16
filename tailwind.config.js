@@ -10,6 +10,9 @@ module.exports = {
         rampart: ['Rampart One', 'sans-serif'],
         titillium: ['"Titillium Web"', 'sans-serif'],
       },
+      backdropFilter: {
+        enabled: true,
+      },
     },
   },
   plugins: [],

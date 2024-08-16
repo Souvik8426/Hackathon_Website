@@ -8,8 +8,7 @@ const Card = ({
 }) => {
   return (
     <div
-      className="h-[25em] w-[18em] border-[0.8px] border-white rounded-[1.5em] bg-gradient-to-br from-[rgba(0,80,150,1)] via-[rgba(0,60,110,1)] to-[rgba(55,20,100,0.01)] text-white font-nunito p-[1em] flex justify-center items-left flex-col gap-[0.75em] bg-opacity-80 backdrop-brightness-[0.25]"
-    >
+      className="h-[25em] w-[18em] border-[0.8px] border-[#A555EC] rounded-[1.5em] text-white font-nunito p-[1em] flex justify-center items-left flex-col gap-[0.75em]"  >
       <div>
         <img
           src={eventImage}

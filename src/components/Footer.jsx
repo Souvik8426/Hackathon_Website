@@ -1,13 +1,16 @@
 import React from 'react';
+import Srm from '../assets/Group1.svg';
+import Datatrix from "../assets/Datatrix_OG.png";
 
 const Footer = () => {
   return (
     <footer className="bg-black font-titillium">
-      <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+      <div className="px-4 p-4 md:py-8">
         <div className="sm:flex sm:items-center sm:justify-between">
 
-          <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-            Hackathon
+          <span className="items-left px-4">
+            <img src={Datatrix} alt="image-alt" width="125" height="24" className="inline-block mx-2" />
+            <img src={Srm} alt="image-alt" width="125" height="24" className="inline-block mx-2" />
           </span>
           <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
             <li>
@@ -40,7 +43,7 @@ const Footer = () => {
           {/* <span className="relative text-white z-10 px-6">Made With Love</span> */}
         </span>
         <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
-        © 2024 Datatrix™. Styled with Tailwind CSS Designed and Developed by the Datatrix Team
+          © 2024 Datatrix™. Styled with Tailwind CSS Designed and Developed by the Datatrix Team
         </span>
       </div>
     </footer>
