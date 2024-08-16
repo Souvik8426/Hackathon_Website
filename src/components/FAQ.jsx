@@ -29,7 +29,7 @@ const FAQs = () => {
   const faqs = [
     {
       question: 'Who can participate in the technical event?',
-      answer: 'Students, developers, designers, and innovators—this hackathon is for you! Whether you\'re coding, designing, or ideating, bring your passion and create something extraordinary. If you love data , you belong here!',
+      answer: 'Students, developers, designers, and innovators—this hackathon is for you! Whether you\'re coding, designing, or ideating, bring your passion and create something extraordinary. If you love data, you belong here!',
     },
     {
       question: 'Can I receive a certificate of participation?',
@@ -58,11 +58,11 @@ const FAQs = () => {
   ];
 
   return (
-    <div id="faq" className="py-12 flex bg-gradient-to-b from-indigo-950 to-black">
-      <div className="lg:flex lg:w-2/3 items-center justify-center hidden md:hidden">
-        <img src={FAQImage} alt="FAQ Image" className="w-full h-full" />
+    <div id="faq" className="py-12 flex flex-col-reverse lg:flex-row bg-gradient-to-b from-indigo-950 to-black">
+      <div className="lg:w-1/3 flex items-center justify-center">
+        <img src={FAQImage} alt="FAQ Image" className="w-full h-full hidden lg:block" />
       </div>
-      <div className="w-1/2 px-8 md:w-full md:text-center">
+      <div className="w-full lg:w-2/3 px-8 md:w-full md:text-center">
         <div className='text-6xl font-bold mb-5 text-white font-rampart text-center'>
           <span className="bg-clip-text text-transparent bg-gradient-to-bl from-blue-500 via-green-500 to-yellow-500">
             FAQs
