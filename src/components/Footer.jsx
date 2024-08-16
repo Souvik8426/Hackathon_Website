@@ -37,14 +37,10 @@ const Footer = () => {
             className="absolute inset-x-0 top-1/2 h-px -translate-y-1/2 bg-transparent bg-gradient-to-r from-transparent via-gray-500 to-transparent opacity-75"
           ></div>
 
-          <span className="relative text-white z-10 px-6">Made With Love</span>
+          {/* <span className="relative text-white z-10 px-6">Made With Love</span> */}
         </span>
         <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
-          &copy; 2024{' '}
-          <a href="https://flowbite.com/" className="hover:underline">
-            Flowbite&trade;
-          </a>
-          . All Rights Reserved.
+        © 2024 Datatrix™. Styled with Tailwind CSS Designed and Developed by the Datatrix Team
         </span>
       </div>
     </footer>

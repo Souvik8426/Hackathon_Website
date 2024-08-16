@@ -6,9 +6,9 @@ const About = () => {
         <div className="bg-gradient-to-b from-transparent via-black to-transparent custom-blur text-white p-10">
             <div className="flex flex-col md:flex-row items-center">
                 {/* Left Half: Image */}
-                <div className="w-full md:w-1/2 flex justify-center items-center hidden md:flex">
+                {/* <div className="w-full md:w-1/2 flex justify-center items-center hidden md:flex">
                     <img src={AboutImage} alt="About Image" className="max-w-full max-h-full rounded-lg" />
-                </div>
+                </div> */}
                 {/* Right Half: Text */}
                 <div className="w-full md:w-1/2 flex flex-col items-center mt-4 md:mt-0">
                     <div className="w-full max-w-2xl text-center">

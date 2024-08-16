@@ -17,7 +17,17 @@ body {
 }
 
 body {
-  margin: 0;
+    background-image: url('./assets/bg-main.svg');
+    background-size: cover;
+    background-position: center;
+  /* margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(125% 125% at 50% 10%, #000 40%, rgb(0, 0, 93) 100%); */
+  /* margin: 0;
   padding: 0;
   width: 100%;
   height: 100vh;
@@ -79,7 +89,7 @@ body {
       )
       38px 38px;
   background-size: 76px 76px;
-  background-color: #172554; 
+  background-color: #172554;  */
   /* width: 100%;
   height: 100%;
   --s: 200px; 
@@ -121,7 +131,7 @@ body {
   font-size: 25px;
   font-weight: bold;
   margin-bottom: 10px;
-  background: linear-gradient(to left, #ffb969, #edffe6);
+  background: #B3EBF2;
   background-clip: text;
   text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -152,7 +162,8 @@ body {
 .App-container {
   display: flex;
   height: 100vh;
-  backdrop-filter: blur(2px); /* Adjust the blur radius as needed */
+  backdrop-filter: blur(2px);
+  /* Adjust the blur radius as needed */
 }
 
 .App-header {
@@ -192,7 +203,7 @@ body {
 }
 
 .custom-blur {
-  backdrop-filter: blur(2px); 
+  backdrop-filter: blur(2px);
 }
 
 html {

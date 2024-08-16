@@ -13,6 +13,8 @@ import Datathon from "./assets/DATATHON24-textogpy.png";
 import HeaderButton from "./components/HeaderButton";
 import HeaderImage from "./assets/HeaderImage.svg";
 
+
+
 import "./App.css";
 
 const App = () => {
@@ -23,7 +25,7 @@ const App = () => {
       <Navbar
         sections={[
           { text: "Home", id: "hero" },
-          { text: "Events", id: "tech-events-section" },
+          { text: "Tracks", id: "tech-events-section" },
           { text: "Gallery", id: "gallery-section" },
           { text: "Contact us", id: "footer-section" },
         ]}
@@ -38,9 +40,9 @@ const App = () => {
             <HeaderButton />
           </div>
         </header>
-        <div className="Image-container bg-transparent hidden md:block">
+        {/* <div className="Image-container bg-transparent hidden md:block">
           <img src={HeaderImage} alt="SVG Image" className="w-full h-full" />
-        </div>
+        </div> */}
       </div>
       <div id="about-section">
         <About />

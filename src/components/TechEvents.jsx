@@ -6,7 +6,7 @@ const TechEvents = () => {
     <>
       <div className="h-auto w-screen py-10">
         <div className="text-6xl font-bold mb-5 text-white font-rampart text-center">
-          <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-green-500 to-yellow-500">
+          <span className="bg-clip-text text-transparent bg-gradient-to-bl from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%">
             Problem Statement
           </span>
         </div>
