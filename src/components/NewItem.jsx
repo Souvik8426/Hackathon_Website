@@ -16,7 +16,7 @@ const Card = ({
           alt={eventName}
           className="h-[6em] w-full object-cover rounded-t-[1.5em]"
         />
-        <h1 className="text-[2em] font-medium">{eventName}</h1>
+        <h1 className="text-[2em] font-titillium font-bold">{eventName}</h1>
         <p className="text-[0.85em]">{eventDescription}</p>
       </div>
 

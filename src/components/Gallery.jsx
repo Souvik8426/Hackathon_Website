@@ -92,7 +92,7 @@ const photos = [
 function Gallery() {
   return (
     <>
-      <div className="py-8 text-6xl font-bold mb-5 text-white font-orbitron text-center">
+      <div className="py-8 text-6xl font-bold mb-5 text-white font-rampart text-center">
         <span className="bg-clip-text text-transparent bg-gradient-to-bl from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%">
           Gallery
         </span>

@@ -5,7 +5,12 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        rampart: ['Rampart One', 'sans-serif'],
+        titillium: ['"Titillium Web"', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }

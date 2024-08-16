@@ -63,13 +63,13 @@ const FAQs = () => {
         <img src={FAQImage} alt="FAQ Image" className="w-full h-full" />
       </div>
       <div className="w-1/2 px-8 md:w-full md:text-center">
-        <div className='text-6xl font-bold mb-5 text-white font-orbitron text-center'>
+        <div className='text-6xl font-bold mb-5 text-white font-rampart text-center'>
           <span className="bg-clip-text text-transparent bg-gradient-to-bl from-blue-500 via-green-500 to-yellow-500">
             FAQs
           </span>
         </div>
 
-        <div className="text-white max-w-2xl mx-auto">
+        <div className="text-white max-w-2xl mx-auto font-titillium">
           {faqs.map(({ question, answer }, index) => (
             <Accordion
               key={index}
