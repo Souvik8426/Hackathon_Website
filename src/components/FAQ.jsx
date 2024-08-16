@@ -58,13 +58,13 @@ const FAQs = () => {
   ];
 
   return (
-    <div id="faq" className="py-12 flex flex-col-reverse lg:flex-row bg-gradient-to-b from-indigo-950 to-black">
+    <div id="faq" className="py-12 flex flex-col-reverse lg:flex-row bg-gradient-to-b from-transparent to-black custom-blur">
       <div className="lg:w-1/3 flex items-center justify-center">
         <img src={FAQImage} alt="FAQ Image" className="w-full h-full hidden lg:block" />
       </div>
       <div className="w-full lg:w-2/3 px-8 md:w-full md:text-center">
         <div className='text-6xl font-bold mb-5 text-white font-rampart text-center'>
-          <span className="bg-clip-text text-transparent bg-gradient-to-bl from-blue-500 via-green-500 to-yellow-500">
+          <span className="bg-clip-text text-transparent bg-gradient-to-bl from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%">
             FAQs
           </span>
         </div>

@@ -50,7 +50,7 @@ const App = () => {
           <Sponsors svgs={svgList} />
         </div>
       </div> */}
-      <div className="bg-transparent text-white">
+      <div className="text-white custom-blur">
         <div id="tech-events-section">
           <TechEvents />
         </div>
@@ -58,8 +58,10 @@ const App = () => {
       <div id="timeline-section">
         <Timeline />
       </div>
-      <div id="gallery-section">
-        <Gallery />
+      <div className="custom-blur">
+        <div id="gallery-section">
+          <Gallery />
+        </div>
       </div>
       <div className="bg-transparent">
         <div id="faqs-section">

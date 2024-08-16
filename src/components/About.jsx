@@ -3,11 +3,11 @@ import AboutImage from '../assets/AboutUs.svg'; // Update with your image path
 
 const About = () => {
     return (
-        <div className="bg-gradient-to-b from-gray-900 to-black text-white p-10 rounded-lg shadow-lg">
+        <div className="bg-gradient-to-b from-transparent via-black to-transparent custom-blur text-white p-10">
             <div className="flex flex-col md:flex-row items-center">
                 {/* Left Half: Image */}
                 <div className="w-full md:w-1/2 flex justify-center items-center hidden md:flex">
-                    <img src={AboutImage} alt="About Image" className="max-w-full max-h-full rounded-lg shadow-lg" />
+                    <img src={AboutImage} alt="About Image" className="max-w-full max-h-full rounded-lg" />
                 </div>
                 {/* Right Half: Text */}
                 <div className="w-full md:w-1/2 flex flex-col items-center mt-4 md:mt-0">
@@ -36,7 +36,10 @@ const About = () => {
 
                         <p className="mt-4 text-lg leading-relaxed font-titillium">
                             We prioritize productivity and security, fostering effective teamwork and protecting intellectual property. For many, the relationships formed during the hackathon could lead to future collaborations or career opportunities, making this event a valuable stepping stone in their professional journey.
-                            Are you ready to hack the future? Join us this September 13&14 for an unforgettable experience that promises to inspire, challenge, and unleash your potential. “Create. Collaborate. Conquer”.
+                            Are you ready to hack the future? Join us this September 13&14 for an unforgettable experience that promises to inspire, challenge, and unleash your potential.
+                        </p>
+                        <p className="mt-4 text-4xl font-bold leading-relaxed font-titillium">
+                            “Create. Collaborate. Conquer”
                         </p>
                     </div>
                 </div>

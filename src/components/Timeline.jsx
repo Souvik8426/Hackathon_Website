@@ -2,12 +2,12 @@ import React from 'react';
 
 const Timeline = () => {
     return (
-        <section className="relative min-h-screen flex flex-col justify-center overflow-hidden bg-gradient-to-b from-lime-950 to-black">
+        <section className="relative min-h-screen flex flex-col justify-center overflow-hidden bg-gradient-to-b from-transparent via-black to-transparent custom-blur">
             <div className="w-full max-w-screen mx-auto px-4 md:px-6">
                 <div className="flex flex-col justify-center divide-y divide-slate-200">
                     <div className="w-full max-w-3xl mx-auto">
                         <div className='text-6xl font-bold mb-5 text-white font-rampart text-center py-10'>
-                            <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-green-500 to-yellow-500">
+                            <span className="bg-clip-text text-transparent bg-gradient-to-bl from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%">
                                 Timeline
                             </span>
                         </div>
