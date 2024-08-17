@@ -9,7 +9,7 @@ const Timeline = () => {
                 </span>
             </div>
             {/* component */}
-            <div className="bg-transparent mx-auto w-full h-full container">
+            <div className="bg-transparent mx-auto w-full h-full container sm:flow-reverse">
                 <div className="relative wrap overflow-hidden p-10 h-full">
                     <div className="border-2-2 absolute border-opacity-20 border-gray-700 h-full border" style={{ left: '50%' }}></div>
                     {/* right timeline */}

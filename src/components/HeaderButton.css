@@ -22,7 +22,6 @@
     rgba(0, 100, 170, 1) 0%,
     rgba(0, 60, 130, 1) 50%,
     rgba(0, 30, 100, 1) 100%
-    
   );
   box-shadow: 0 0 30px 5px rgba(0, 142, 236, 0.815);
   transition: all 0.2s ease-out;
