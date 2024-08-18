@@ -16,7 +16,7 @@ const Timeline = () => {
                     <div className="flex flex-row-reverse md:contents">
                         <div className=" col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md border-2 border-[#A555EC] shadow-[#509f9b54]">
                             <h3 className="font-semibold text-lg mb-1 ">March 18</h3>
-                            <h5 className=" text-sm text-slate-600">09:00 am</h5>
+                            <h5 className=" text-sm text-violet-300">09:00 am</h5>
                             <br />
                             <p className="leading-tight text-justify">
                                 Registration Starts . Announcement of registration for our
@@ -45,7 +45,7 @@ const Timeline = () => {
 
                         <div className=" col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md border-2 border-[#A555EC] shadow-[#509f9b54]">
                             <h3 className="font-semibold text-lg mb-1">March 25 - 30</h3>
-                            <h5 className=" text-sm text-slate-600">09:00 am</h5>
+                            <h5 className=" text-sm text-violet-300">09:00 am</h5>
                             <br />
                             <p className="leading-tight text-justify">
                                 Approvals will be rolled out between March 25 and March 30.
@@ -61,7 +61,7 @@ const Timeline = () => {
                             <h3 className="font-semibold text-lg mb-1">
                                 April 06 : Day 01
                             </h3>
-                            <h5 className=" text-sm text-slate-600">09:00 am</h5>
+                            <h5 className=" text-sm text-violet-300">09:00 am</h5>
                             <br />
                             <p className="leading-tight text-justify">
                                 Kickstart your day by checking in for the most anticipated
@@ -90,7 +90,7 @@ const Timeline = () => {
 
                         <div className=" col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md border-2 border-[#A555EC] shadow-[#509f9b54]">
                             <h3 className="font-semibold text-lg mb-1">March 25 - 30</h3>
-                            <h5 className=" text-sm text-slate-600">09:00 am</h5>
+                            <h5 className=" text-sm text-violet-300">09:00 am</h5>
                             <br />
                             <p className="leading-tight text-justify">
                                 Approvals will be rolled out between March 25 and March 30.
@@ -106,7 +106,7 @@ const Timeline = () => {
                             <h3 className="font-semibold text-lg mb-1">
                                 April 06 : Day 01
                             </h3>
-                            <h5 className=" text-sm text-slate-600">09:00 am</h5>
+                            <h5 className=" text-sm text-violet-300">09:00 am</h5>
                             <br />
                             <p className="leading-tight text-justify">
                                 Kickstart your day by checking in for the most anticipated
@@ -137,7 +137,7 @@ const Timeline = () => {
                             <h3 className="font-semibold text-lg mb-1">
                                 Judging Round 01{" "}
                             </h3>
-                            <h5 className=" text-sm text-slate-600">06:00 pm</h5>
+                            <h5 className=" text-sm text-violet-300">06:00 pm</h5>
                             <br />
                             <p className="leading-tight text-justify">
                                 Present your innovative ideas to our esteemed panel of
@@ -152,7 +152,7 @@ const Timeline = () => {
                     <div className="flex flex-row-reverse md:contents">
                         <div className=" col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md border-2 border-[#A555EC] shadow-[#509f9b54]">
                             <h3 className="font-semibold text-lg mb-1 ">Dinner </h3>
-                            <h5 className=" text-sm text-slate-600">08:00 pm</h5>
+                            <h5 className=" text-sm text-violet-300">08:00 pm</h5>
                             <br />
                             <p className="leading-tight text-justify">
                                 Take a break, refuel, and recharge with a delicious dinner.
@@ -183,7 +183,7 @@ const Timeline = () => {
                             <h3 className="font-semibold text-lg mb-1">
                                 Judging Round 02
                             </h3>
-                            <h5 className=" text-sm text-slate-600">08:00 pm</h5>
+                            <h5 className=" text-sm text-violet-300">08:00 pm</h5>
                             <br />
                             <p className="leading-tight text-justify">
                                 Demonstrate your progress and the functionality of your
@@ -200,7 +200,7 @@ const Timeline = () => {
                             <h3 className="font-semibold text-lg mb-1">
                                 April 07 : Day 02
                             </h3>
-                            <h5 className=" text-sm text-slate-600">10:00 am</h5>
+                            <h5 className=" text-sm text-violet-300">10:00 am</h5>
                             <br />
                             <p className="leading-tight text-justify">
                                 Continuing the hackathon journey with a hearty breakfast.
@@ -228,7 +228,7 @@ const Timeline = () => {
 
                         <div className=" col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md border-2 border-[#A555EC] shadow-[#509f9b54]">
                             <h3 className="font-semibold text-lg mb-1">Final Judging </h3>
-                            <h5 className=" text-sm text-slate-600">12:00 pm</h5>
+                            <h5 className=" text-sm text-violet-300">12:00 pm</h5>
                             <br />
                             <p className="leading-tight text-justify">
                                 Present your final project to the judges and the audience.
@@ -247,7 +247,7 @@ const Timeline = () => {
                                 Result Announcement, Final Pitching & Wrapping of
                                 Hackverse'24
                             </h3>
-                            <h5 className=" text-sm text-slate-600">
+                            <h5 className=" text-sm text-violet-300">
                                 01:00 pm to 02:00 pm
                             </h5>
                             <br />
