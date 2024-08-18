@@ -1,7 +1,6 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import { Svg1, Svg2, Svg3, Svg4, Svg5, Svg6 } from "./components/Svgs";
-import Sponsors from "./components/Sponsors";
 import TechEvents from "./components/TechEvents";
 import Timeline from "./components/Timeline";
 import Footer from "./components/Footer";
@@ -11,8 +10,6 @@ import About from "./components/About";
 import Datatrix from "./assets/Datatrix_OG.png";
 import Datathon from "./assets/DATATHON24-textogpy.png";
 import HeaderButton from "./components/HeaderButton";
-import HeaderImage from "./assets/HeaderImage.svg";
-
 
 
 import "./App.css";
