@@ -1,5 +1,4 @@
 import React from 'react';
-import FAQImage from '../assets/FAQImage.svg';
 import {
   Accordion,
   AccordionHeader,

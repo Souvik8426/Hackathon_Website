@@ -1,6 +1,5 @@
 import React from "react";
 import Navbar from "./components/Navbar";
-import { Svg1, Svg2, Svg3, Svg4, Svg5, Svg6 } from "./components/Svgs";
 import TechEvents from "./components/TechEvents";
 import Timeline from "./components/Timeline";
 import Footer from "./components/Footer";
@@ -15,8 +14,6 @@ import HeaderButton from "./components/HeaderButton";
 import "./App.css";
 
 const App = () => {
-  const svgList = [Svg1, Svg2, Svg3, Svg4, Svg5, Svg6]; // Add the SVGs you want to display here for Sponsors
-
   return (
     <div className="bg-transparent">
       <Navbar
