@@ -2,7 +2,8 @@ import React from 'react';
 
 const Timeline = () => {
     return (
-        <section className="relative min-h-screen flex flex-col justify-center overflow-hidden bg-gradient-to-b from-transparent via-black to-transparent custom-blur">
+        <section className=" min-h-screen flex flex-col justify-center overflow-hidden bg-gradient-to-b from-transparent via-black to-transparent custom-blur">
+
             <div className="text-6xl font-bold mb-5 text-white font-rampart text-center py-10">
                 <span className="bg-clip-text text-transparent bg-gradient-to-bl from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%">
                     Timeline
