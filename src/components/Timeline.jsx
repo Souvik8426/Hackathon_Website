@@ -4,7 +4,7 @@ const Timeline = () => {
     return (
         <section className="min-h-screen flex flex-col justify-center overflow-hidden bg-gradient-to-b from-transparent via-black to-transparent custom-blur">
             <div className="text-6xl font-bold mb-5 text-white font-rampart text-center py-10">
-                <span className="bg-clip-text text-transparent bg-gradient-to-bl from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%">
+                <span className="bg-clip-text text-transparent bg-gradient-to-bl from-indigo-500 from-10% via-fuchsia-500 via-30% to-purple-500 to-90%">
                     Timeline
                 </span>
             </div>
@@ -192,7 +192,7 @@ const Timeline = () => {
                         </div>
                         <div className="w-full max-w-[35rem] col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md border-2 border-[#A555EC] shadow-[#509f9b54]">
                             <h3 className="font-semibold text-lg mb-1">
-                                April 07 : Day 02
+                                September 14 : Day 02
                             </h3>
                             <h5 className="text-sm text-violet-300">12:00 PM</h5>
                             <br />

@@ -5,12 +5,12 @@ const About = () => {
         <div className="bg-gradient-to-b from-transparent via-black to-transparent custom-blur text-white p-6 md:p-10">
             <div className="w-screen md:w-1/2 mx-auto mt-4 md:mt-0 text-center">
                 <div className='text-4xl md:text-6xl font-bold mb-5 text-white font-rampart'>
-                    <span className="bg-clip-text text-transparent bg-gradient-to-bl from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%">
+                    <span className="bg-clip-text text-transparent bg-gradient-to-bl from-indigo-500 from-10% via-fuchsia-500 via-30% to-purple-500 to-90%">
                         About
                     </span>
                 </div>
                 <div className='text-4xl md:text-6xl font-bold mb-5 text-white font-rampart'>
-                    <span className="bg-clip-text text-transparent bg-gradient-to-bl from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%">
+                    <span className="bg-clip-text text-transparent bg-gradient-to-bl from-indigo-500 from-10% via-fuchsia-500 via-30% to-purple-500 to-90%">
                         Datathon 2024
                     </span>
                 </div>
@@ -31,7 +31,7 @@ const About = () => {
                     Are you ready to hack the future? Join us this September 13&14 for an unforgettable experience that promises to inspire, challenge, and unleash your potential.
                 </p>
                 <p className="mt-4 text-2xl md:text-4xl font-bold leading-relaxed font-titillium mr-10">
-                    “Create. Collaborate. Conquer”
+                    “Create. Collaborate. Conquer.”
                 </p>
             </div>
         </div>

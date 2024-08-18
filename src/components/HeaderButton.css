@@ -4,7 +4,7 @@
   position: relative;
   padding: 10px 20px;
   border-radius: 7px;
-  border: 1px solid rgb(40, 50, 163);
+  border: 1px solid rgb(126, 60, 126);
   font-size: 14px;
   text-transform: uppercase;
   font-weight: 600;
@@ -19,11 +19,11 @@
 .header-button:hover {
   background: linear-gradient(
     90deg,
-    rgba(0, 100, 170, 1) 0%,
-    rgba(0, 60, 130, 1) 50%,
-    rgba(0, 30, 100, 1) 100%
+    #d18df9 0%,   /* light violet */
+    #a855f7 50%,  /* base violet */
+    #822cc7 100%  /* darker violet */ 
   );
-  box-shadow: 0 0 30px 5px rgba(0, 142, 236, 0.815);
+  box-shadow: 0 0 30px 5px rgb(255, 177, 255);
   transition: all 0.2s ease-out;
 }
 

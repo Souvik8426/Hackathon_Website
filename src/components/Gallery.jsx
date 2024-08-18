@@ -93,7 +93,7 @@ function Gallery() {
   return (
     <>
       <div className="py-8 text-6xl font-bold mb-5 text-white font-rampart text-center custom-blur">
-        <span className="bg-clip-text text-transparent bg-gradient-to-bl from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%">
+        <span className="bg-clip-text text-transparent bg-gradient-to-bl from-indigo-500 from-10% via-fuchsia-500 via-30% to-purple-500 to-90%">
           Gallery
         </span>
       </div>

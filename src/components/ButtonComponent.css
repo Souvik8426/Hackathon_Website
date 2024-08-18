@@ -41,9 +41,9 @@
   background: rgb(222, 0, 75);
   background: linear-gradient(
     90deg,
-    rgba(0, 120, 200, 1) 0%,
-    rgba(0, 80, 150, 1) 50%,
-    rgba(0, 40, 120, 1) 100%
+    #d18df9 0%,   /* light violet */
+    #a855f7 50%,  /* base violet */
+    #822cc7 100%  /* darker violet */  
   );
   border-radius: 40rem;
   width: 10rem;

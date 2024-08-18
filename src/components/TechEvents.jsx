@@ -12,15 +12,15 @@ const TechEvents = () => {
     <>
       <div className="h-auto w-screen py-10">
         <div className="text-6xl font-bold mb-5 text-white font-rampart text-center">
-          <span className="bg-clip-text text-transparent bg-gradient-to-bl from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%">
-            Problem Statement
+          <span className="bg-clip-text text-transparent bg-gradient-to-bl from-indigo-500 from-10% via-fuchsia-500 via-30% to-purple-500 to-90%">
+            Tracks
           </span>
         </div>
         <div className="flex flex-wrap justify-center gap-8 w-screen px-4 md:px-10 font-titillium">
           <Card
             eventName="Traffic Accident Analysis & Prediction"
             eventDescription="Develop a model using historical accident data, weather conditions, and traffic patterns to identify key factors, predict high-risk areas, and forecast times for future traffic accidents."
-            eventImage={Traffic} 
+            eventImage={Traffic}
             buttonText="Join Now"
           />
           <Card

@@ -63,7 +63,7 @@ const FAQs = () => {
       </div> */}
       <div className="w-full lg:w-2/3 px-8 md:w-full md:text-center">
         <div className='text-6xl font-bold mb-5 text-white font-rampart text-center'>
-          <span className="bg-clip-text text-transparent bg-gradient-to-bl from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%">
+          <span className="bg-clip-text text-transparent bg-gradient-to-bl from-indigo-500 from-10% via-fuchsia-500 via-30% to-purple-500 to-90%">
             FAQs
           </span>
         </div>
