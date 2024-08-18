@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        rampart: ['Rampart One', 'sans-serif'],
+        rampart: ['Montserrat', 'sans-serif'],
         titillium: ['"Titillium Web"', 'sans-serif'],
       },
       backdropFilter: {

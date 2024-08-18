@@ -29,6 +29,9 @@ const Navbar = ({ sections }) => {
           {sections.map((section, index) => (
             <GradientButton key={index} text={section.text} onClick={() => scrollToSection(section.id)} />
           ))}
+          <a href="https://linktr.ee/Datatrix_24" target="_blank" rel="noopener noreferrer">
+            <GradientButton text="Contact Us" />
+          </a>
         </div>
         <button
           className="lg:hidden h-6 w-6"

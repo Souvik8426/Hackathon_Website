@@ -24,7 +24,7 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <a href="#footer-section" className="hover:underline">
+              <a href="https://linktr.ee/Datatrix_24" className="hover:underline">
                 Contact Us
               </a>
             </li>

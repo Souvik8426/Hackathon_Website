@@ -11,7 +11,7 @@ const Card = ({
       className="w-[18em] border-[0.8px] border-[#A555EC] rounded-[1.5em] text-white font-nunito p-[1em] flex justify-center items-start flex-col gap-[0.75em]"
       style={{ minHeight: 'fit-content' }}
     >
-      <div className="relative w-full h-[8em]">
+      <div className="relative w-full h-[15em]">
         <img
           src={eventImage}
           alt={eventName}
