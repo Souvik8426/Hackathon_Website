@@ -1,5 +1,6 @@
 import React from 'react';
 import Card from './NewItem';
+import Sample from '../assets/Sample.jpg';
 
 const TechEvents = () => {
   return (
@@ -12,27 +13,27 @@ const TechEvents = () => {
         </div>
         <div className="flex flex-wrap justify-center gap-8 w-screen px-4 md:px-10 font-titillium">
           <Card
-            eventName="Traffic Accident Analysis and Prediction"
-            eventDescription="Develop a model to analyze traffic accident data and predict high-risk areas and times for accidents. Use historical accident data, weather conditions, and traffic patterns to identify key factors contributing to accidents and predict when and where future accidents are most likely to occur."
-            eventImage="https://example.com/image.jpg"
+            eventName="Traffic Accident Analysis & Prediction"
+            eventDescription="Develop a model using historical accident data, weather conditions, and traffic patterns to identify key factors, predict high-risk areas, and forecast times for future traffic accidents."
+            eventImage={Sample} 
             buttonText="Join Now"
           />
           <Card
             eventName="Health Outcomes Prediction"
-            eventDescription="Create a predictive model to forecast health outcomes for patients with chronic conditions. Utilize medical records, patient demographics, and historical treatment data to predict future health events, such as hospital readmissions or disease progression, and suggest personalized treatment plans."
-            eventImage="https://example.com/image.jpg"
+            eventDescription="Create a predictive model to forecast health outcomes for chronic patients using medical records, demographics, and treatment history. Predict events like hospital readmissions and disease progression, and suggest personalized treatments."
+            eventImage={Sample}
             buttonText="Join Now"
           />
           <Card
             eventName="Real Estate Price Forecasting"
-            eventDescription="Build a model to forecast real estate prices in a specific region. Analyze historical property sales data, including features such as location, size, and amenities, as well as economic indicators, to predict future property values and identify investment opportunities."
-            eventImage="https://example.com/image.jpg"
+            eventDescription="Build a model to forecast real estate prices by analyzing historical sales data, location, size, amenities, and economic indicators. Predict future property values and identify potential investment opportunities."
+            eventImage={Sample}
             buttonText="Join Now"
           />
           <Card
             eventName="Retail Inventory Management"
-            eventDescription="Develop a system to optimize inventory management for a retail chain. Use historical sales data, seasonal trends, and promotional schedules to predict future inventory needs, minimize stockouts, and reduce excess inventory."
-            eventImage="https://example.com/image.jpg"
+            eventDescription="Develop a system to optimize inventory for a retail chain using historical sales, seasonal trends, and promotions. Predict future needs, minimize stockouts, and reduce excess inventory efficiently."
+            eventImage={Sample}
             buttonText="Join Now"
           />
         </div>

@@ -8,13 +8,18 @@ const Card = ({
 }) => {
   return (
     <div
-      className="h-[25em] w-[18em] border-[0.8px] border-[#A555EC] rounded-[1.5em] text-white font-nunito p-[1em] flex justify-center items-left flex-col gap-[0.75em]"  >
-      <div>
+      className="w-[18em] border-[0.8px] border-[#A555EC] rounded-[1.5em] text-white font-nunito p-[1em] flex justify-center items-start flex-col gap-[0.75em] bg-[#1A1A1A]"
+      style={{ minHeight: 'fit-content' }}
+    >
+      <div className="relative w-full h-[8em]">
         <img
           src={eventImage}
           alt={eventName}
-          className="h-[6em] w-full object-cover rounded-t-[1.5em]"
+          className="w-full h-full object-cover rounded-[1.5em]"
         />
+      </div>
+
+      <div className="pt-[1em]">
         <h1 className="text-[2em] font-titillium font-bold">{eventName}</h1>
         <p className="text-[0.85em]">{eventDescription}</p>
       </div>

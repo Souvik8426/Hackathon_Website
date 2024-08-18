@@ -25,7 +25,7 @@ const App = () => {
       <Navbar
         sections={[
           { text: "Home", id: "hero" },
-          { text: "Tracks", id: "tech-events-section" },
+          { text: "Tracks", id: "timeline-section" },
           { text: "Gallery", id: "gallery-section" },
           { text: "Contact us", id: "footer-section" },
         ]}

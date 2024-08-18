@@ -9,54 +9,56 @@ const Timeline = () => {
                 </span>
             </div>
             {/* component */}
-            <div className="bg-transparent mx-auto w-full h-full container sm:flow-reverse">
+            <div className="bg-transparent mx-auto w-full h-full container">
                 <div className="relative wrap overflow-hidden p-10 h-full">
-                    <div className="border-2-2 absolute border-opacity-20 border-gray-700 h-full border" style={{ left: '50%' }}></div>
+                    <div className="absolute border-white h-[24rem] border my-[3rem] hidden xl:block" style={{ left: '50%' }}></div>
+                    <div className="absolute border-white h-[27rem] border my-[3rem] hidden sm:block 2xl:hidden" style={{ left: '50%' }}></div>
+                    <div className="absolute border-white h-[30rem] border my-[4rem] hidden sm:block lg:hidden" style={{ left: '50%' }}></div>
                     {/* right timeline */}
-                    <div className="mb-8 flex justify-between items-center w-full right-timeline">
-                        <div className="order-1 w-5/12"></div>
-                        <div className="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
-                            <h1 className="mx-auto font-semibold text-lg text-white">1</h1>
+                    <div className="mb-8 flex flex-col sm:flex-row justify-between items-center w-full right-timeline">
+                        <div className="order-1 sm:w-5/12 w-full"></div>
+                        <div className="z-20 flex items-center order-1 bg-white shadow-xl w-8 h-8 rounded-full sm:mx-0 mx-auto">
+                            <h1 className="mx-auto font-semibold text-lg text-grey-800">1</h1>
                         </div>
-                        <div className="order-1 text-white bg-blur rounded-lg shadow-xl w-5/12 px-6 py-4 border border-[#A555EC]">
-                            <h3 className="mb-3 font-bold text-xl">Lorem Ipsum</h3>
-                            <p className="text-sm leading-snug tracking-wide text-opacity-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <div className="order-1 text-white bg-blur rounded-lg shadow-xl sm:w-5/12 w-full px-6 py-4 mt-4 sm:mt-0 border border-[#A555EC]">
+                            <h3 className="mb-3 font-bold text-xl text-center sm:text-left">Lorem Ipsum</h3>
+                            <p className="text-sm leading-snug tracking-wide text-opacity-100 text-center sm:text-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                         </div>
                     </div>
 
                     {/* left timeline */}
-                    <div className="mb-8 flex justify-between flex-reverse items-center w-full left-timeline">
-                        <div className="order-1 w-5/12"></div>
-                        <div className="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
-                            <h1 className="mx-auto text-white font-semibold text-lg">2</h1>
+                    <div className="mb-8 flex flex-col sm:flex-row-reverse justify-between items-center w-full left-timeline">
+                        <div className="order-1 sm:w-5/12 w-full"></div>
+                        <div className="z-20 flex items-center order-1 bg-white shadow-xl w-8 h-8 rounded-full sm:mx-0 mx-auto">
+                            <h1 className="mx-auto text-grey-800 font-semibold text-lg">2</h1>
                         </div>
-                        <div className="order-1 text-white bg-blur rounded-lg shadow-xl w-5/12 px-6 py-4 border border-[#A555EC]">
-                            <h3 className="mb-3 font-bold text-xl">Lorem Ipsum</h3>
-                            <p className="text-sm leading-snug tracking-wide text-opacity-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <div className="order-1 text-white bg-blur rounded-lg shadow-xl sm:w-5/12 w-full px-6 py-4 mt-4 sm:mt-0 border border-[#A555EC]">
+                            <h3 className="mb-3 font-bold text-xl text-center sm:text-left">Lorem Ipsum</h3>
+                            <p className="text-sm leading-snug tracking-wide text-opacity-100 text-center sm:text-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                         </div>
                     </div>
 
                     {/* right timeline */}
-                    <div className="mb-8 flex justify-between items-center w-full right-timeline">
-                        <div className="order-1 w-5/12"></div>
-                        <div className="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
-                            <h1 className="mx-auto font-semibold text-lg text-white">3</h1>
+                    <div className="mb-8 flex flex-col sm:flex-row justify-between items-center w-full right-timeline">
+                        <div className="order-1 sm:w-5/12 w-full"></div>
+                        <div className="z-20 flex items-center order-1 bg-white shadow-xl w-8 h-8 rounded-full sm:mx-0 mx-auto">
+                            <h1 className="mx-auto font-semibold text-lg text-grey-800">3</h1>
                         </div>
-                        <div className="order-1 text-white bg-blur rounded-lg shadow-xl w-5/12 px-6 py-4 border border-[#A555EC]">
-                            <h3 className="mb-3 font-bold text-xl">Lorem Ipsum</h3>
-                            <p className="text-sm leading-snug tracking-wide text-opacity-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <div className="order-1 text-white bg-blur rounded-lg shadow-xl sm:w-5/12 w-full px-6 py-4 mt-4 sm:mt-0 border border-[#A555EC]">
+                            <h3 className="mb-3 font-bold text-xl text-center sm:text-left">Lorem Ipsum</h3>
+                            <p className="text-sm leading-snug tracking-wide text-opacity-100 text-center sm:text-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                         </div>
                     </div>
 
                     {/* left timeline */}
-                    <div className="mb-8 flex justify-between flex-reverse items-center w-full left-timeline">
-                        <div className="order-1 w-5/12"></div>
-                        <div className="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
-                            <h1 className="mx-auto text-white font-semibold text-lg">4</h1>
+                    <div className="mb-8 flex flex-col sm:flex-row-reverse justify-between items-center w-full left-timeline">
+                        <div className="order-1 sm:w-5/12 w-full"></div>
+                        <div className="z-20 flex items-center order-1 bg-white shadow-xl w-8 h-8 rounded-full sm:mx-0 mx-auto">
+                            <h1 className="mx-auto text-grey-800 font-semibold text-lg">4</h1>
                         </div>
-                        <div className="order-1 text-white bg-blur rounded-lg shadow-xl w-5/12 px-6 py-4 border border-[#A555EC]">
-                            <h3 className="mb-3 font-bold text-xl">Lorem Ipsum</h3>
-                            <p className="text-sm leading-snug tracking-wide text-opacity-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <div className="order-1 text-white bg-blur rounded-lg shadow-xl sm:w-5/12 w-full px-6 py-4 mt-4 sm:mt-0 border border-[#A555EC]">
+                            <h3 className="mb-3 font-bold text-xl text-center sm:text-left">Lorem Ipsum</h3>
+                            <p className="text-sm leading-snug tracking-wide text-opacity-100 text-center sm:text-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                         </div>
                     </div>
                 </div>

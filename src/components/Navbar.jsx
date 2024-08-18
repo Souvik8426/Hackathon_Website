@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import GradientButton from './ButtonComponent';
-import datathonImage from '../assets/DATATHON24-textogpy.png';
 import DatatrixBW from "../assets/DatatrixBW.svg";
 
 
@@ -17,13 +16,13 @@ const Navbar = ({ sections }) => {
   };
 
   return (
-    <nav className="fixed w-full px-4 py-2 bg-transparent shadow-md lg:px-8 lg:py-4 backdrop-blur-sm z-50">
+    <nav className="fixed w-full px-2 py-2 bg-transparent shadow-md lg:px-8 lg:py-4 backdrop-blur-sm z-50">
       <div className="flex justify-between items-center mx-auto text-white">
         <div className="flex items-center">
           <img
             src={DatatrixBW}
             alt="Datathon24"
-            className="w-[250px] h-auto max-h-[75px]"
+            className="w-[100px] h-auto max-h-[75px]"
           />
         </div>
         <div className="hidden lg:flex space-x-6">
