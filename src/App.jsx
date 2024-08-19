@@ -41,7 +41,7 @@ const App = () => {
             <h2 style={{ marginLeft: '8px', marginTop: '8px' }}>TBD</h2>
           </div>
           <div className="App">
-            <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">
+            <a href="#" target="_blank" rel="noopener noreferrer">
               <HeaderButton text="Apply Now" />
             </a>
           </div>
