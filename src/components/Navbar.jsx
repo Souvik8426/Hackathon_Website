@@ -77,6 +77,9 @@ const Navbar = ({ sections }) => {
                 <GradientButton text={section.text} onClick={() => scrollToSection(section.id)} />
               </li>
             ))}
+            <a href="https://linktr.ee/Datatrix_24" target="_blank" rel="noopener noreferrer">
+              <GradientButton text="Contact Us" />
+            </a>
           </ul>
         </div>
       </div>
