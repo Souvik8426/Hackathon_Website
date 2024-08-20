@@ -21,25 +21,25 @@ const TechEvents = () => {
             eventName="Traffic Accident Analysis & Prediction"
             eventDescription="Develop a model using historical accident data, weather conditions, and traffic patterns to identify key factors, predict high-risk areas, and forecast times for future traffic accidents."
             eventImage={Traffic}
-            buttonText="Join Now"
+            buttonText="Know More"
           />
           <Card
             eventName="Health Outcomes Prediction"
             eventDescription="Create a predictive model to forecast health outcomes for chronic patients using medical records, demographics, and treatment history. Predict events like hospital readmissions and disease progression, and suggest personalized treatments."
             eventImage={Health}
-            buttonText="Join Now"
+            buttonText="Know More"
           />
           <Card
             eventName="Real Estate Price Forecasting"
             eventDescription="Build a model to forecast real estate prices by analyzing historical sales data, location, size, amenities, and economic indicators. Predict future property values and identify potential investment opportunities."
             eventImage={Urban}
-            buttonText="Join Now"
+            buttonText="Know More"
           />
           <Card
             eventName="Retail Inventory Management"
             eventDescription="Develop a system to optimize inventory for a retail chain using historical sales, seasonal trends, and promotions. Predict future needs, minimize stockouts, and reduce excess inventory efficiently."
             eventImage={Commerce}
-            buttonText="Join Now"
+            buttonText="Know More"
           />
         </div>
       </div>

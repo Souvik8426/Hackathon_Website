@@ -192,9 +192,9 @@ const Timeline = () => {
                         </div>
                         <div className="w-full max-w-[35rem] col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md border-2 border-[#A555EC] shadow-[#509f9b54]">
                             <h3 className="font-semibold text-lg mb-1">
-                                September 14 : Day 02
+                                September 14 : Day 02, Breakfast
                             </h3>
-                            <h5 className="text-sm text-violet-300">12:00 PM</h5>
+                            <h5 className="text-sm text-violet-300">7:00 AM</h5>
                             <br />
                             <p className="leading-tight text-justify">
                                 Begin Day 2 with a hearty breakfast. Recharge for another day of innovation and creativity.
