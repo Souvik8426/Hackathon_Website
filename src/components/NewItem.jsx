@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const Card = ({
   eventName,
@@ -6,6 +7,12 @@ const Card = ({
   eventImage,
   buttonText,
 }) => {
+  const navigate = useNavigate();
+
+  const handleButtonClick = () => {
+    navigate('/new-component');
+  };
+
   return (
     <div
       className="w-[18em] border-[0.8px] border-[#A555EC] rounded-[1.5em] text-white font-nunito p-[1em] flex justify-center items-start flex-col gap-[0.75em]"
@@ -25,6 +32,7 @@ const Card = ({
       </div>
 
       <button
+        onClick={handleButtonClick}
         className="h-fit w-fit px-[1em] py-[0.25em] border-[1px] rounded-full flex justify-center items-center gap-[0.5em] overflow-hidden group hover:translate-y-[0.125em] duration-200 backdrop-blur-[12px]"
       >
         <p>{buttonText}</p>
