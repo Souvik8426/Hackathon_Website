@@ -131,7 +131,7 @@ const Timeline = () => {
                             <h3 className="font-semibold text-lg mb-1">
                                 Mentor Round 01
                             </h3>
-                            <h5 className="text-sm text-violet-300">8:00 AM</h5>
+                            <h5 className="text-sm text-violet-300">6:30 PM</h5>
                             <br />
                             <p className="leading-tight text-justify">
                                 The hackathon comes to a close. Submit your final projects and prepare for the judging phase.
