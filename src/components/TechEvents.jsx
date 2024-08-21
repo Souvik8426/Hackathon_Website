@@ -3,6 +3,7 @@ import Traffic from '../assets/ProblemStatements/1.png';
 import Health from '../assets/ProblemStatements/2.png';
 import Urban from '../assets/ProblemStatements/3.png';
 import Commerce from '../assets/ProblemStatements/4.png';
+import HeaderButton from "./HeaderButton";
 
 const TechEvents = () => {
   // State to manage which modal is open
@@ -110,6 +111,9 @@ const TechEvents = () => {
                 <p className="text-base leading-relaxed text-gray-400 dark:text-gray-300">
                   Create scalable AI and machine learning solutions that can be adapted across various industries, driving widespread improvements in supply chain management.
                 </p>
+                <div className="App mb-[1rem]">
+                  <HeaderButton />
+                </div>
               </div>
             </div>
           </div>
@@ -203,6 +207,9 @@ const TechEvents = () => {
                 <p className="text-base leading-relaxed text-gray-400 dark:text-gray-300">
                   Set a new standard in the real estate and interior design industries by leveraging AI and VR technologies, making the home-buying and design processes more efficient, accessible, and customer-centric.
                 </p>
+                <div className="App mb-[1rem]">
+                  <HeaderButton />
+                </div>
               </div>
             </div>
           </div>
@@ -281,6 +288,9 @@ const TechEvents = () => {
                     </ul>
                     By the end of the hackathon, teams should have a working chatbot prototype that demonstrates its potential to assist patients and healthcare professionals, ultimately improving healthcare access and decision-making.
                   </p>
+                  <div className="App mb-[1rem]">
+                    <HeaderButton />
+                  </div>
                 </div>
               </div>
             </div>

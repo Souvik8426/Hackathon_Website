@@ -85,11 +85,11 @@ const App = () => {
             <HeaderButton />
           </div>
           <div
-              className="apply-button"
-              data-hackathon-slug="YOUR-HACKATHON-SLUG"
-              data-button-theme="dark-inverted"
-              style={{ height: "44px", width: "312px", marginTop: "20px" }}
-            ></div>
+            className="apply-button"
+            data-hackathon-slug="YOUR-HACKATHON-SLUG"
+            data-button-theme="dark-inverted"
+            style={{ height: "44px", width: "312px", marginTop: "20px" }}
+          ></div>
         </header>
       </div>
       <div id="about-section">

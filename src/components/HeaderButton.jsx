@@ -3,7 +3,7 @@ import './HeaderButton.css';
 
 const HeaderButton = () => {
   const handleClick = () => {
-    alert('Registrations will open soon!!!');
+    window.open('https://forms.gle/r47aXrnQnHYicwRe6', '_blank');
   };
 
   return (
