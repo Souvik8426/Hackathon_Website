@@ -31,7 +31,7 @@ const About = () => {
                     Are you ready to hack the future? Join us this September 13&14 for an unforgettable experience that promises to inspire, challenge, and unleash your potential.
                 </p>
                 <p className="mt-4 text-2xl md:text-4xl font-bold leading-relaxed font-titillium mr-10">
-                    “Create. Collaborate. Conquer.”
+                    “Analyze. Adapt. Achieve.”
                 </p>
             </div>
         </div>

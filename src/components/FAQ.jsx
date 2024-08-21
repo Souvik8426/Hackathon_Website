@@ -28,7 +28,7 @@ const FAQs = () => {
   const faqs = [
     {
       question: 'Who can participate in the technical event?',
-      answer: 'Students, developers, designers, and innovators—this hackathon is for you! Whether you\'re coding, designing, or ideating, bring your passion and create something extraordinary. If you love data, you belong here!',
+      answer: 'Students, developers, designers, and innovators—this hackathon is for you! Since Datatrix\'24 is an intercollege event, any college student can participate. Whether you\'re interested in coding, designing, or ideating you can bring your passion and create something extraordinary. If you love data, you belong here!',
     },
     {
       question: 'Can I receive a certificate of participation?',
@@ -53,6 +53,10 @@ const FAQs = () => {
     {
       question: 'Will there be networking opportunities?',
       answer: 'Absolutely! Connect with fellow participants, mentors, and industry leaders throughout the event.',
+    },
+    {
+      question: 'Would food be provided?',
+      answer: 'Yes, lunch and dinner will be provided on 13th September and breakfast will be provided on 14th September',
     },
   ];
 

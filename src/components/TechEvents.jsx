@@ -30,7 +30,7 @@ const TechEvents = () => {
         {/* Traffic Accident Card */}
         <div className="w-[25em] border-[0.8px] border-[#A555EC] rounded-[1.5em] text-white font-nunito p-[1em] flex justify-center items-start flex-col gap-[0.75em]" style={{ minHeight: 'fit-content' }}>
           <div className="relative w-full h-[15em]">
-            <img src={Traffic} alt="Traffic Accident Analysis & Prediction" className="w-full h-full object-cover rounded-[1.5em]" />
+            <img src={Commerce} alt="Traffic Accident Analysis & Prediction" className="w-full h-full object-cover rounded-[1.5em]" />
           </div>
           <div className="pt-[1em]">
             <h1 className="text-[2em] font-titillium font-bold">AI-Powered Supply Chain Optimization</h1>
@@ -74,7 +74,7 @@ const TechEvents = () => {
                   <span className="sr-only">Close modal</span>
                 </button>
               </div>
-              <div className="p-4 md:p-5 space-y-4 overflow-y-auto max-h-[80vh]">
+              <div className="p-4 md:p-5 space-y-4 overflow-y-auto max-h-[70vh]">
                 <h1 className="text-lg font-semibold text-gray-900 dark:text-white">Objective</h1>
                 <p className="text-base leading-relaxed text-gray-400 dark:text-gray-300">
                   To revolutionize inventory management and pricing strategies by developing innovative AI-powered solutions that enhance supply chain efficiency and boost profitability, driving significant improvements in business operations.
@@ -162,7 +162,7 @@ const TechEvents = () => {
                   <span className="sr-only">Close modal</span>
                 </button>
               </div>
-              <div className="p-4 md:p-5 space-y-4 overflow-y-auto max-h-[80vh]">
+              <div className="p-4 md:p-5 space-y-4 overflow-y-auto max-h-[67vh]">
                 <h1 className="text-lg font-semibold text-gray-900 dark:text-white">Objective</h1>
                 <p className="text-base leading-relaxed text-gray-400 dark:text-gray-300">
                   To develop an AI-powered platform that integrates advanced VR and AI technologies, aiming to transform the real estate and interior design industries by enhancing the customer experience through immersive visualizations, interactive property tours, and personalized design recommendations.
@@ -257,7 +257,7 @@ const TechEvents = () => {
                     <span className="sr-only">Close modal</span>
                   </button>
                 </div>
-                <div className="p-4 md:p-5 space-y-4 overflow-y-auto max-h-[80vh]">
+                <div className="p-4 md:p-5 space-y-4 overflow-y-auto max-h-[67vh]">
                   <h1 className="text-lg font-semibold text-gray-900 dark:text-white">Objective</h1>
                   <p className="text-base leading-relaxed text-gray-400 dark:text-gray-300">
                     Develop an AI-driven chatbot that leverages publicly available healthcare datasets to assist patients and healthcare professionals in symptom analysis, disease prediction, and medical imaging interpretation. The chatbot should provide users with actionable insights based on their symptoms, medical history, and relevant clinical or imaging data.
