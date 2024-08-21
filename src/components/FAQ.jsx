@@ -56,7 +56,7 @@ const FAQs = () => {
     },
     {
       question: 'Would food be provided?',
-      answer: 'Yes, lunch and dinner will be provided on 13th September and breakfast will be provided on 14th September',
+      answer: 'Yes, lunch and dinner will be provided on 13th September and breakfast will be provided on 14th September.',
     },
   ];
 

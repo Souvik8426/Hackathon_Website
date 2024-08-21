@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Navbar from "./components/Navbar";
 import TechEvents from "./components/TechEvents";
 import Timeline from "./components/Timeline";
@@ -10,9 +10,22 @@ import Datatrix from "./assets/Datatrix_OG.png";
 import Datathon from "./assets/DATATHON24-textogpy.png";
 import HeaderButton from "./components/HeaderButton";
 import Sponsors from "./components/Sponsors";
+
 import "./App.css";
 
 const App = () => {
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://apply.devfolio.co/v2/sdk.js';
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
+
   return (
     <div className="bg-transparent">
       <Navbar
@@ -22,7 +35,6 @@ const App = () => {
           { text: "Gallery", id: "gallery-section" },
         ]}
       />
-
       <div className="App-container">
         <header id="hero" className="App-header">
           <img src={Datatrix} width="175" height="85" alt="Datatrix Image" />
@@ -69,11 +81,16 @@ const App = () => {
             </svg>
             <h2 style={{ marginLeft: "8px", marginTop: "8px" }}>TBD</h2>
           </div>
-          <div className="App">
-            <div className="App">
-              <HeaderButton />
-            </div>
+          <div className="App mb-[1rem]">
+            <HeaderButton />
+            {/* Devfolio Button */}
           </div>
+          <div
+              className="apply-button"
+              data-hackathon-slug="YOUR-HACKATHON-SLUG"
+              data-button-theme="dark-inverted"
+              style={{ height: "44px", width: "312px", marginTop: "20px" }}
+            ></div>
         </header>
       </div>
       <div id="about-section">
