@@ -70,9 +70,9 @@ const App = () => {
             <h2 style={{ marginLeft: "8px", marginTop: "8px" }}>TBD</h2>
           </div>
           <div className="App">
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <div className="App">
               <HeaderButton />
-            </a>
+            </div>
           </div>
         </header>
       </div>
