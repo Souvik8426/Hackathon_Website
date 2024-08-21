@@ -83,7 +83,6 @@ const App = () => {
           </div>
           <div className="App mb-[1rem]">
             <HeaderButton />
-            {/* Devfolio Button */}
           </div>
           <div
               className="apply-button"
