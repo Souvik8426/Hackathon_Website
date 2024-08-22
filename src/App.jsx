@@ -9,7 +9,6 @@ import About from "./components/About";
 import Datatrix from "./assets/Datatrix_OG.png";
 import Datathon from "./assets/DATATHON24-textogpy.png";
 import HeaderButton from "./components/HeaderButton";
-import Sponsors from "./components/Sponsors";
 
 import "./App.css";
 
@@ -102,11 +101,6 @@ const App = () => {
       </div>
       <div id="timeline-section">
         <Timeline />
-      </div>
-      <div className="text-white">
-        <div id="sponsors-section">
-          <Sponsors />
-        </div>
       </div>
       <div className="custom-blur">
         <div id="gallery-section">

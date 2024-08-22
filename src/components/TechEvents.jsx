@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Traffic from '../assets/ProblemStatements/1.png';
 import Health from '../assets/ProblemStatements/2.png';
 import Urban from '../assets/ProblemStatements/3.png';
 import Commerce from '../assets/ProblemStatements/4.png';
