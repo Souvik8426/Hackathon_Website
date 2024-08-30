@@ -58,6 +58,14 @@ const FAQs = () => {
       question: 'Would food be provided?',
       answer: 'Yes, lunch and dinner will be provided on 13th September and breakfast will be provided on 14th September.',
     },
+    {
+      question: 'Where is this hackathon happening?',
+      answer: 'The Hackathon will take place at Guvi, located within the IIT Madras Research Park. Address: IITM Research Park - Phase 2, Module #9, 3rd Floor, D Block, Kanagam Road, Tharamani, Chennai, Tamil Nadu 600113.',
+    },
+    {
+      question: 'What is the timing for the Datathon?',
+      answer: 'This is a 24-hour hackathon, commencing on 13th September at 6:00 PM and concluding on 14th September at 6:00 PM.',
+    },
   ];
 
   return (
