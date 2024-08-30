@@ -55,8 +55,11 @@ const App = () => {
               />
             </svg>
             <h2 style={{ marginLeft: "8px", marginTop: "8px" }}>
-              September 13th & 14th
+              Date: September 13th & 14th
             </h2>
+          </div>
+          <div style={{ display: "flex", alignItems: "center" }}>
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M12 7V12L14.5 10.5M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>            <h2 style={{ marginLeft: "8px", marginTop: "8px" }}>Timings: 6pm to 6pm (24hrs)</h2>
           </div>
           <div style={{ display: "flex", alignItems: "center" }}>
             <svg
@@ -78,17 +81,20 @@ const App = () => {
                 d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"
               />
             </svg>
-            <h2 style={{ marginLeft: "8px", marginTop: "8px" }}>TBD</h2>
-          </div>
+            <link rel="stylesheet" href="https://youtube.com" />
+            <h2 style={{ marginLeft: "8px", marginTop: "8px" }}>
+              <a
+                href="https://maps.app.goo.gl/dpYm7VKAxiyfwH7y9"
+                target="Location"
+                rel="noopener noreferrer"
+                style={{ textDecoration: 'none', color: 'inherit' }}
+              >
+                Location: Guvi, IIT Madras Research Park
+              </a>
+            </h2>          </div>
           <div className="App mb-[1rem]">
             <HeaderButton />
           </div>
-          <div
-            className="apply-button"
-            data-hackathon-slug="YOUR-HACKATHON-SLUG"
-            data-button-theme="dark-inverted"
-            style={{ height: "44px", width: "312px", marginTop: "20px" }}
-          ></div>
         </header>
       </div>
       <div id="about-section">

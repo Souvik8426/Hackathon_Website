@@ -222,7 +222,7 @@ const TechEvents = () => {
           </div>
           <div className="pt-[1em]">
             <h1 className="text-[2em] font-titillium font-bold">AI-Powered Healthcare Chatbot</h1>
-            <p className="text-[0.85em]">Design an AI-powered assistant that can automatically furnish and stage rooms virtually based on different design styles. Your solution should allow users to visualize their spaces with different furniture and décor, applying various interior design themes, and making personalized recommendations based on user preferences.</p>
+            <p className="text-[0.85em]">Design an AI-powered chatbot that autonomously analyzes, predicts, and interprets symptoms and diseases using publicly available datasets. The chatbot should be capable of providing users with insights into their symptoms by gathering their medical history, relevant details, and imaging data.</p>
           </div>
           <button onClick={() => handleOpenModal('urban-modal')} className="h-fit w-fit px-[1em] py-[0.25em] border-[1px] rounded-full flex justify-center items-center gap-[0.5em] overflow-hidden group hover:translate-y-[0.125em] duration-200 backdrop-blur-[12px]">
             <p>Know More</p>
