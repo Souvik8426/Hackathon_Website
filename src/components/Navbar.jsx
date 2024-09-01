@@ -22,7 +22,7 @@ const Navbar = ({ sections }) => {
           <img
             src={DatatrixBW}
             alt="Datathon24"
-            className="w-[100px] h-auto max-h-[75px]"
+            className="w-[100px] h-auto max-h-[60px]"
           />
         </div>
         <div className="hidden lg:flex space-x-6">
