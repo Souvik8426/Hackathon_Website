@@ -52,9 +52,10 @@ const Timeline = () => {
                     <div className="flex flex-row-reverse md:contents">
                         <div className="w-full max-w-[35rem] col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md border-2 border-[#A555EC] shadow-[#509f9b54]">
                             <h3 className="font-semibold text-lg mb-1">
-                                September 13 : Day 01
+                                September 13 : Day 01,
                             </h3>
-                            <h5 className="text-sm text-violet-300">10:00 AM</h5>
+                            <h3 className="font-semibold text-lg mb-1 ">Check in and RSVP at Guvi</h3>
+                            <h5 className="text-sm text-violet-300">04:30 PM to 05:00</h5>
                             <br />
                             <p className="leading-tight text-justify">
                                 Check-In: Start your day by checking in for the most anticipated hackathon of the
@@ -68,11 +69,10 @@ const Timeline = () => {
                             <div className="w-6 h-6 absolute top-7 -mt-3 rounded-full border-4 border-purple-500 bg-purple-300 shadow-lg"></div>
                         </div>
                     </div>
-
                     <div className="flex flex-row-reverse md:contents">
                         <div className="w-full max-w-[35rem] col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md border-2 border-[#A555EC] shadow-[#509f9b54]">
-                            <h3 className="font-semibold text-lg mb-1 ">Inauguration & Speakers' Session</h3>
-                            <h5 className="text-sm text-violet-300">10:30 AM - 11:00 AM</h5>
+                            <h3 className="font-semibold text-lg mb-1 ">Induction Ceremony</h3>
+                            <h5 className="text-sm text-violet-300">05:00 PM to 06:00 PM</h5>
                             <br />
                             <p className="leading-tight text-justify">
                                 Join us for the grand opening ceremony followed by insightful sessions with industry experts
@@ -92,7 +92,7 @@ const Timeline = () => {
                             <h3 className="font-semibold text-lg mb-1">
                                 Hackathon Begins
                             </h3>
-                            <h5 className="text-sm text-violet-300">11:15 AM</h5>
+                            <h5 className="text-sm text-violet-300">06:00 PM</h5>
                             <br />
                             <p className="leading-tight text-justify">
                                 The hacking begins! Collaborate with your team and start transforming your ideas into reality
@@ -105,17 +105,16 @@ const Timeline = () => {
                             <div className="w-6 h-6 absolute top-7 -mt-3 rounded-full border-4 border-purple-500 bg-purple-300 shadow-lg"></div>
                         </div>
                     </div>
-
                     <div className="flex flex-row-reverse md:contents">
                         <div className="w-full max-w-[35rem] col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md border-2 border-[#A555EC] shadow-[#509f9b54]">
                             <h3 className="font-semibold text-lg mb-1">
-                                Lunch
+                                Overview and Presentation
                             </h3>
-                            <h5 className="text-sm text-violet-300">1:30 PM</h5>
+                            <h5 className="text-sm text-violet-300">6:15 PM to 6:45 PM</h5>
                             <br />
                             <p className="leading-tight text-justify">
-                                Take a well-deserved break with a tasty lunch. Use this time to recharge and share your
-                                experiences with other participants.
+                                During this time, we’ll provide a detailed overview of the event, including the rules, guidelines, and expectations.
+                                You’ll also be introduced to the problem statements that you’ll be tackling over the next 24 hours. Our team will walk you through the resources available to you, key deadlines, and how to submit your final projects.
                             </p>
                         </div>
                         <div className="col-start-5 col-end-6 md:mx-auto relative mr-10">
@@ -126,52 +125,15 @@ const Timeline = () => {
                         </div>
                     </div>
 
-                    <div className="flex flex-row-reverse md:contents">
-                        <div className="w-full max-w-[35rem] col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md border-2 border-[#A555EC] shadow-[#509f9b54]">
-                            <h3 className="font-semibold text-lg mb-1">
-                                Mentor Round 01
-                            </h3>
-                            <h5 className="text-sm text-violet-300">6:30 PM</h5>
-                            <br />
-                            <p className="leading-tight text-justify">
-                                The hackathon comes to a close. Submit your final projects and prepare for the judging phase.
-                            </p>
-                        </div>
-                        <div className="col-start-5 col-end-6 md:mx-auto relative mr-10">
-                            <div className="h-full w-6 flex items-start justify-center">
-                                <div className="h-full w-1 bg-blue-200 pointer-events-none"></div>
-                            </div>
-                            <div className="w-6 h-6 absolute top-7 -mt-3 rounded-full border-4 border-purple-500 bg-purple-300 shadow-lg"></div>
-                        </div>
-                    </div>
                     <div className="flex flex-row-reverse md:contents">
                         <div className="w-full max-w-[35rem] col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md border-2 border-[#A555EC] shadow-[#509f9b54]">
                             <h3 className="font-semibold text-lg mb-1">
                                 Dinner
                             </h3>
-                            <h5 className="text-sm text-violet-300">8:00 PM</h5>
+                            <h5 className="text-sm text-violet-300">09:00 PM to 10:00 PM</h5>
                             <br />
                             <p className="leading-tight text-justify">
-                                Refuel with a delicious dinner. Connect with fellow participants and discuss your progress.
-                            </p>
-                        </div>
-                        <div className="col-start-5 col-end-6 md:mx-auto relative mr-10">
-                            <div className="h-full w-6 flex items-start justify-center">
-                                <div className="h-full w-1 bg-blue-200 pointer-events-none"></div>
-                            </div>
-                            <div className="w-6 h-6 absolute top-7 -mt-3 rounded-full border-4 border-purple-500 bg-purple-300 shadow-lg"></div>
-                        </div>
-                    </div>
-                    <div className="flex flex-row-reverse md:contents">
-                        <div className="w-full max-w-[35rem] col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md border-2 border-[#A555EC] shadow-[#509f9b54]">
-                            <h3 className="font-semibold text-lg mb-1">
-                                Mentor Round 02
-                            </h3>
-                            <h5 className="text-sm text-violet-300">11:00 PM</h5>
-                            <br />
-                            <p className="leading-tight text-justify">
-                                Demonstrate the progress you've made and the unique features of your product to the judges.
-                                Show what sets your project apart.
+                                End Day 1 with a delicious dinner. Refuel and unwind after a day of innovation and creativity.
                             </p>
                         </div>
                         <div className="col-start-5 col-end-6 md:mx-auto relative mr-10">
@@ -192,12 +154,15 @@ const Timeline = () => {
                         </div>
                         <div className="w-full max-w-[35rem] col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md border-2 border-[#A555EC] shadow-[#509f9b54]">
                             <h3 className="font-semibold text-lg mb-1">
-                                September 14 : Day 02, Breakfast
+                                September 14 : Day 02,
                             </h3>
-                            <h5 className="text-sm text-violet-300">7:00 AM</h5>
+                            <h3 className="font-semibold text-lg mb-1">
+                                1st Mentoring round starts
+                            </h3>
+                            <h5 className="text-sm text-violet-300">12:00 AM</h5>
                             <br />
                             <p className="leading-tight text-justify">
-                                Begin Day 2 with a hearty breakfast. Recharge for another day of innovation and creativity.
+                                Our Technical Team will be on hand to review your progress, provide feedback, and help troubleshoot any technical challenges you may be facing. Whether you need assistance with coding, data analysis, or conceptual clarity, this session is designed to ensure that you’re on the right track.
                             </p>
                         </div>
                     </div>
@@ -210,13 +175,12 @@ const Timeline = () => {
                         </div>
                         <div className="w-full max-w-[35rem] col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md border-2 border-[#A555EC] shadow-[#509f9b54]">
                             <h3 className="font-semibold text-lg mb-1">
-                                Mentoring Round 03
+                                Midnight refreshment
                             </h3>
-                            <h5 className="text-sm text-violet-300">8:30 AM</h5>
+                            <h5 className="text-sm text-violet-300">02:00 AM to 03:00 AM</h5>
                             <br />
                             <p className="leading-tight text-justify">
-                                Continue showcasing your project's progress and functionality to the judges, highlighting what
-                                makes your project unique.
+                                Refuel and recharge with a selection of snacks and beverages, giving you the energy boost you need to power through the remaining hours of the hackathon.
                             </p>
                         </div>
                     </div>
@@ -229,12 +193,12 @@ const Timeline = () => {
                         </div>
                         <div className="w-full max-w-[35rem] col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md border-2 border-[#A555EC] shadow-[#509f9b54]">
                             <h3 className="font-semibold text-lg mb-1">
-                                Project Summation
+                                Breakfast
                             </h3>
-                            <h5 className="text-sm text-violet-300">11:15 AM</h5>
+                            <h5 className="text-sm text-violet-300">07:00 AM to 08:00 AM</h5>
                             <br />
                             <p className="leading-tight text-justify">
-                                Wrap up your work and prepare your project for the final presentation.
+                                Start Day 2 with a nourishing breakfast. Fuel up for another exciting day of innovation and creativity.
                             </p>
                         </div>
                     </div>
@@ -247,13 +211,12 @@ const Timeline = () => {
                         </div>
                         <div className="w-full max-w-[35rem] col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md border-2 border-[#A555EC] shadow-[#509f9b54]">
                             <h3 className="font-semibold text-lg mb-1">
-                                Final Judging
+                                Second Mentoring round starts by Mentors
                             </h3>
-                            <h5 className="text-sm text-violet-300">11:30 AM</h5>
+                            <h5 className="text-sm text-violet-300">08:15 AM</h5>
                             <br />
                             <p className="leading-tight text-justify">
-                                Present your completed project to the judges and audience. Show how far you've come and the
-                                new features you've added.
+                            In this round, mentors will review your progress, provide critical feedback, and help you overcome any remaining challenges. Whether you’re looking to fine-tune your solution or need advice on next steps, this mentoring round is designed to give you the support you need as you head into the final hours of the hackathon.
                             </p>
                         </div>
                     </div>
@@ -266,15 +229,86 @@ const Timeline = () => {
                         </div>
                         <div className="w-full max-w-[35rem] col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md border-2 border-[#A555EC] shadow-[#509f9b54]">
                             <h3 className="font-semibold text-lg mb-1">
-                                Results Announcement and Closing Ceremony
+                                Lunch
                             </h3>
-                            <h5 className="text-sm text-violet-300">1:00 PM - 2:00 PM</h5>
+                            <h5 className="text-sm text-violet-300">11:30 AM to 12:30 PM</h5>
                             <br />
                             <p className="leading-tight text-justify">
-                                The moment you've been waiting for is here! Discover the winners as we announce the results.
-                                Make your final pitch and reflect on the incredible journey you've experienced. Celebrate the
-                                innovation, collaboration, and connections made during Datathon'24. We're excited to see you
-                                bring your ideas to life and look forward to igniting a spark of innovation together!                            </p>
+                                After hours of intense work, this lunch session provides a chance to relax, recharge, and enjoy a meal with your fellow participants.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="flex md:contents">
+                        <div className="col-start-5 col-end-6 mr-10 md:mx-auto relative">
+                            <div className="h-full w-6 flex items-center justify-center">
+                                <div className="h-full w-1 bg-blue-200 pointer-events-none"></div>
+                            </div>
+                            <div className="w-6 h-6 absolute top-7 -mt-3 rounded-full border-4 border-purple-500 bg-purple-300 shadow-lg"></div>
+                        </div>
+                        <div className="w-full max-w-[35rem] col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md border-2 border-[#A555EC] shadow-[#509f9b54]">
+                            <h3 className="font-semibold text-lg mb-1">
+                                Project deployment and PPT
+                            </h3>
+                            <h5 className="text-sm text-violet-300">12:30 PM to 02:00 PM</h5>
+                            <br />
+                            <p className="leading-tight text-justify">
+                                This crucial period is dedicated to finalizing your project and preparing your presentation.
+                                During this time, you will deploy your solution, ensuring everything is working smoothly, and create a compelling PPT that clearly communicates your project's objectives, approach, and results.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="flex md:contents">
+                        <div className="col-start-5 col-end-6 mr-10 md:mx-auto relative">
+                            <div className="h-full w-6 flex items-center justify-center">
+                                <div className="h-full w-1 bg-blue-200 pointer-events-none"></div>
+                            </div>
+                            <div className="w-6 h-6 absolute top-7 -mt-3 rounded-full border-4 border-purple-500 bg-purple-300 shadow-lg"></div>
+                        </div>
+                        <div className="w-full max-w-[35rem] col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md border-2 border-[#A555EC] shadow-[#509f9b54]">
+                            <h3 className="font-semibold text-lg mb-1">
+                                Judging round
+                            </h3>
+                            <h5 className="text-sm text-violet-300">02:00 PM to 04:00 PM</h5>
+                            <br />
+                            <p className="leading-tight text-justify">
+                                The Judging Round is a pivotal moment in the Datathon—it's where all your hard work and dedication pay off. Present confidently and clearly, and demonstrate why your project stands out among the rest. Best of luck!
+                            </p>
+                        </div>
+                    </div>
+                    <div className="flex md:contents">
+                        <div className="col-start-5 col-end-6 mr-10 md:mx-auto relative">
+                            <div className="h-full w-6 flex items-center justify-center">
+                                <div className="h-full w-1 bg-blue-200 pointer-events-none"></div>
+                            </div>
+                            <div className="w-6 h-6 absolute top-7 -mt-3 rounded-full border-4 border-purple-500 bg-purple-300 shadow-lg"></div>
+                        </div>
+                        <div className="w-full max-w-[35rem] col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md border-2 border-[#A555EC] shadow-[#509f9b54]">
+                            <h3 className="font-semibold text-lg mb-1">
+                                Refreshments
+                            </h3>
+                            <h5 className="text-sm text-violet-300">04:00 PM to 05:00 PM</h5>
+                            <br />
+                            <p className="leading-tight text-justify">
+                                This break provides a well-deserved opportunity to relax, socialize, and recharge after a full day of innovation and presentations.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="flex md:contents">
+                        <div className="col-start-5 col-end-6 mr-10 md:mx-auto relative">
+                            <div className="h-full w-6 flex items-center justify-center">
+                                <div className="h-full w-1 bg-blue-200 pointer-events-none"></div>
+                            </div>
+                            <div className="w-6 h-6 absolute top-7 -mt-3 rounded-full border-4 border-purple-500 bg-purple-300 shadow-lg"></div>
+                        </div>
+                        <div className="w-full max-w-[35rem] col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md border-2 border-[#A555EC] shadow-[#509f9b54]">
+                            <h3 className="font-semibold text-lg mb-1">
+                                Valediction and announcement of the winners
+                            </h3>
+                            <h5 className="text-sm text-violet-300">05:00 PM to 06:00 PM</h5>
+                            <br />
+                            <p className="leading-tight text-justify">
+                                This is a moment of celebration and recognition for all your efforts. Gather to share in the excitement, congratulate your peers, and wrap up the event on a high note. Congratulations to everyone for their hard work and dedication!
+                            </p>
                         </div>
                     </div>
                 </div>
