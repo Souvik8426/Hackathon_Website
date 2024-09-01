@@ -38,7 +38,7 @@ const Timeline = () => {
                             <div className="w-6 h-6 absolute top-7 -mt-3 rounded-full border-4 border-purple-500 bg-purple-300 shadow-lg"></div>
                         </div>
                         <div className="w-full max-w-[35rem] col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md border-2 border-[#A555EC] shadow-[#509f9b54]">
-                            <h3 className="font-semibold text-lg mb-1">August 26</h3>
+                            <h3 className="font-semibold text-lg mb-1">August 26 - September 07</h3>
                             <h5 className="text-sm text-violet-300"></h5>
                             <br />
                             <p className="leading-tight text-justify">
